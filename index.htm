@@ -1,203 +1,253 @@
 <!DOCTYPE html>
 <html lang="pt">
-<title>Portfolio Sinval Gomes</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
-<body class="w3-light-grey">
+<head>
+  <title>Bootstrap 4 Sinval Gomes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Bootstrap 4</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>About Me</h2>
+      <h5>Photo of me:</h5>
+      <div id="img">
+  <img src="perf.jpg" class="rounded-circle" alt="Cinque Terre" width="304" height="400">    
+      </div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <h3>Some Links</h3>
+      <p>Lorem ipsum dolor sit ame.</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-5">
+      <h2>SVG EFECT</h2>
+      <h5>Efeito em SVG</h5>
+      <div class="fakeimg">
+<svg width="400px" height="400px">
+<g id="R1" transform="translate(250 250)"> 
+  <ellipse rx="100" ry="0" opacity=".3">
+  <animateTransform attributeName="transform" type="rotate" dur="7s" from="0" to="360" repeatCount="indefinite" />
+  <animate attributeName="cx" dur="6s" values="-20; 220; -20" repeatCount="indefinite" />
+  <animate attributeName="ry" dur="2s" values="10; 60; 10" repeatCount="indefinite" />
+  </ellipse>
+</g>
+<use xlink:href="#R1" transform="rotate(72 190 150)" />
+<use xlink:href="#R1" transform="rotate(144 190 150)" />
+<use xlink:href="#R1" transform="rotate(216 190 150)" />
+<use xlink:href="#R1" transform="rotate(288 190 150)" />
+</svg>
+      </div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <br>
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakei ">
+   <svg height="150px" width="100%">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100" fill="url(#grad1)" />
+  <text fill="#ffffff" font-size="45" font-family="Verdana" x="10" y="86">SVG</text>
+  Sorry, your browser does not support inline SVG.
+</svg>      
+      </div>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="col-sm-3">
+    <p>SVG Line</p>
+ <svg height="210" width="500">
+  <line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+  <line x1="0" y1="0" x2="150" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+  <line x1="0" y1="0" x2="100" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+  <line x1="0" y1="0" x2="50" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+  <line x1="0" y1="0" x2="25" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+  <line x1="0" y1="0" x2="0" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+<svg height="210" width="500">
+   <line x1="200" y1="0" x2="0" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+   <line x1="150" y1="0" x2="0" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+   <line x1="100" y1="0" x2="0" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+   <line x1="50" y1="0" x2="0" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+   <line x1="25" y1="0" x2="0" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+   <line x1="0" y1="0" x2="0" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+   </div>
+    
+  </div>
+  <h2>Carousel</h2>
+<div class="row"> <!-- Inicial Carrousel -->
+<div class="col-sm-4"> <!-- Carrousel left -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ul>
   
-    <!-- Left Column -->
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="perf.jpg" style="width:300px" class="w3-image" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2>Sinval Gomes</h2>
-          </div>
-        </div>
-        <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Designer e Programador</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Prado-BA, Brasil</p>
-          <hr>
-
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Nível</b></p>
-          <p>Gimp</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
-          </div>
-          <p>PHP</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-          </div>
-          <p>Python</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
-          </div>
-          <br>
-
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Idiomas</b></p>
-          <p>Português</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <p>Inglês Técnico</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:50%"></div>
-          </div>
-          <br>
-        </div>
-      </div><br>
-
-    <!-- End Left Column -->
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="ph1.jpg" alt="Los Angeles" width="320" height="240">
     </div>
-
-    <!-- Right Column -->
-    <div class="w3-twothird">
-    
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Trabalho e Experiência</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Backend e Developer / aondenet.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2010 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Desenvolvimento e programação: Wordpress, html, css, javascript, php, awk, sed, python, <a href="https://aondenet-sinval.github.io/slide/">W3.CSS</a>, <a href="https://unresistible-taste.000webhostapp.com/">Bootstrap 4 (PHP)</a>, <a href="https://aondenet-sinval.github.io/bootstrap/">Bootstrap 4 (html)</a>.</p>
-          <hr>
-        </div>
-          <div class="w3-container">
-          <h5 class="w3-opacity"><b>Designer Gr&aacute;fico / aondenet.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 <span class="w3-tag w3-teal w3-round">Current</span></h6>
-            <p>Tenho experiência com o Gimp em edi&ccedil;&atilde;o de fotos e habilidade na cria&ccedil;&atilde;o de logos. </p><br>
-        </div>   
-          <div class="w3-container">
-          <h5 class="w3-opacity"><b>Frontend, Backend / Pousada Carmélia, Prado-BA</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2020</h6>
-          <p>Desenvolvimento Web. </p><br>
-        </div>       
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Frontend, Backend / Pousada Timbebas, Prado-BA</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2020</h6>
-          <p>Desenvolvimento Web. </p><br>
-        </div>
-      </div>
-
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Formação</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Projeto Linux Brasil</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010</h6>
-          <p>Linux: Redes, Administração do Sistema, Apache - . Conhecimentos: CSS, HTML, MYSQL, Shell Script, PHP</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Brasil Mais TI</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013</h6>
-          <p>PHP e Mysql - POO</p>
-          <hr>
-        </div>
-           <div class="w3-container">
-          <h5 class="w3-opacity"><b>Udemy</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020</h6>
-          <p>Asterisk na Prática - Fail2ban, IAX2</p><br>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Udemy</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>VOIP com Asterisk</p><br>
-        </div>
-          <div class="w3-container">
-          <h5 class="w3-opacity"><b>eSecurity</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>jan 2021 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Introdução a Segurança da Informação</p><br>
-        </div>
-<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Conhecimentos Adicionais</h2>
-<button onclick="myFunction('soft1')" class="w3-button w3-block w3-green w3-left-align">Softwares/Sistemas Operacionais</button>
-<div id="soft1" class="w3-hide w3-container">
-<p>
-Segurança: Iptables, Fail2ban, ConfigServerFirewall.<br>
-Nmap, wireshark.
-</p>
-</div>
-
-<button onclick="myFunction('soft2')" class="w3-button w3-block w3-black w3-left-align">Linguagem de Programação</button>
-<div id="soft2" class="w3-hide w3-container">
-    <p>JavaScript, xhtml</p>
-</div>
-<button onclick="myFunction('soft3')" class="w3-button w3-block w3-green w3-left-align">Designer</button>
-<div id="soft3" class="w3-hide w3-container">
-    <p>Gimp</p>
-</div>
-<button onclick="myFunction('soft4')" class="w3-button w3-block w3-black w3-left-align">Softwares/Aplicativos/Framework</button>
-<div id="soft4" class="w3-hide w3-container">
-    <p>JQuery UI, LibreOffice, Office, Windows, FrontPage.</p>
-</div>
-      </div>
-
-<div class="w3-teal">
-  <h1>TEMPLATES EM W3.CSS</h1>
-</div>
-<div class="w3-row w3-border">
-<div class="w3-row-padding w3-margin-top">
-  <div class="w3-third">
-    <div class="w3-card">
-      <img src="slide.png" style="width:100%" >
-      <div class="w3-container">
-        <h5 class="w3-text-green w3-hover-black"><a href="https://aondenet-sinval.github.io/slide/">FOTO SLIDE</a></h5>
-      </div>
+    <div class="carousel-item">
+      <img src="ph2.jpg" alt="Chicago" width="320" height="240">
     </div>
-  </div>
-
-  <div class="w3-third">
-    <div class="w3-card">
-      <img src="aventura.png" style="width:100%" >
-      <div class="w3-container">
-        <h5 class="w3-text-green w3-hover-black"> <a href="https://aondenet-sinval.github.io/aventura/">AVENTURA</a></h5>
-      </div>
+    <div class="carousel-item">
+      <img src="ph3.jpeg" alt="New York" width="320" height="240">
     </div>
-  </div>
-    <!-- End Right Column -->
-    </div>
-    </div>
-    
-  <!-- End Grid -->
   </div>
   
-  <!-- End Page Container -->
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+ </div>
+ </div>
+ <div class="col-sm-4"> <!-- Carrousel center -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="ph1.jpg" alt="Los Angeles" width="320" height="240">
+    </div>
+    <div class="carousel-item">
+      <img src="ph2.jpg" alt="Chicago" width="320" height="240">
+    </div>
+    <div class="carousel-item">
+      <img src="ph3.jpeg" alt="New York" width="320" height="240">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+ </div>
+ </div>
+ <div class="col-sm-4"> <!-- Carrousel right -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="ph1.jpg" alt="Los Angeles" width="320" height="240">
+    </div>
+    <div class="carousel-item">
+      <img src="ph2.jpg" alt="Chicago" width="320" height="240">
+    </div>
+    <div class="carousel-item">
+      <img src="ph3.jpeg" alt="New York" width="320" height="240">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+ </div>
+ </div>
+ </div>
+ <div class="row">
+  <div class="media border p-3">
+    <img src="perf.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+    <div class="media-body">
+      <h4>Sinval Gomes <small><i>Posted on February 02, 2021</i></small></h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <div class="media p-3">
+        <img src="xjane.png" alt="Jane Did" class="mr-3 mt-3 rounded-circle" style="width:45px;">
+        <div class="media-body">
+          <h4>Jane Doe <small><i>Posted on February 02, 2021</i></small></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>  
+    </div>
+  </div>
+ </div>
 </div>
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Me encontre nas redes sociais. Mais informações desse portfolio encontre em minha Wiki</p>
-   <a href="https://m.me/222864191603534"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p>Criado com <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
-<script>
-function myFunction(id) {
-  var x = document.getElementById(id);
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-    x.previousElementSibling.className = 
-    x.previousElementSibling.className.replace("w3-black", "w3-red");
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-    x.previousElementSibling.className = 
-    x.previousElementSibling.className.replace("w3-red", "w3-black");
-  }
-}
-</script>
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p><a href="http://www.aondenet.com">Sinval Gomes. Em desenvolvimento...</a></p>
+</div>
+
 </body>
 </html>
