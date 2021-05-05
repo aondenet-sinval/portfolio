@@ -1,0 +1,9 @@
+print("Digite graus Celsius a converter:")
+grau_celsius = input()
+if grau_celsius.isnumeric():
+    grau_celsius = int(grau_celsius)
+    Fahrenheit = grau_celsius * 1.8 + 32
+    print(str(grau_celsius) + " graus Celsius equivale a " + str(round(Fahrenheit, 2)) + " Fahrenheit")
+else:
+    print("Digite graus em valores apenas númericos")
+    
