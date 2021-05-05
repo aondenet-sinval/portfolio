@@ -1,0 +1,8 @@
+print("Digite graus fahrenheit a converter:")
+fnait = input()
+if fnait.isnumeric():
+    fnait = int(fnait)
+    selsius = 5 * ((fnait - 32) / 9)
+    print(str(fnait) + " graus Fahrenheit equivale a " + str(round(selsius, 2)) + " Celsius")
+else:
+    print("Digite graus em valores apenas númericos")

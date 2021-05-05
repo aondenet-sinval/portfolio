@@ -1,0 +1,6 @@
+print("Digite um numero")
+digito = input()
+if digito.isnumeric() == True:
+    print(str(digito) + " é um numero.")
+else:
+    print(str(digito) + " não é um numero.")

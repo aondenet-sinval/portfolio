@@ -1,0 +1,9 @@
+#Calculo da área do circulo
+print("Digite o raio do circulo")
+#medida = 10
+medida = input()
+if medida.isnumeric() == True:
+    print("A área do circulo é: " + str((int(medida) * int(medida)) * 3.14))
+else:
+    print(str(medida) + " não é um número. Digite apenas números")
+    exit()

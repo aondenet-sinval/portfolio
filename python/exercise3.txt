@@ -1,0 +1,6 @@
+#Somando dois números
+print("Digite um numero")
+number1 = int(input())
+print("Digite outro numero")
+number2 = int(input())
+print("A soma é: " + str(number1 + number2))

@@ -1,0 +1,10 @@
+#Calculo de salário com base em horas trabalhadas
+print("Digite quantas horas você trabalha no mês")
+horas_trabalhadas = input()
+print("Escreva quanto custa cada hora de trabalho")
+custo_hora = input()
+if horas_trabalhadas.isnumeric() and custo_hora.isnumeric():
+    salario_mensal = int(horas_trabalhadas) * int(custo_hora)
+    print("Seu salário mensal é: " + str(salario_mensal))
+else:
+    print("Digite apenas números para calcular seu salário. \n Tente novamente...")

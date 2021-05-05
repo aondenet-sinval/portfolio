@@ -1,0 +1,10 @@
+#Calculo do dobro do quadro inserido pelo usuário
+print("Digite o diâmetro 1")
+medida1 = input()
+print("Digite o diâmetro 2")
+medida2 = input()
+if medida1.isnumeric() == True and medida2.isnumeric() == True:
+    medida = int(medida1) * int(medida2) * 2
+    print("O dobro do quadrado da medida é: " + str(medida))
+else:
+    print("Escreva somente números.")

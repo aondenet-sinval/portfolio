@@ -1,0 +1,9 @@
+#Convertendo metros em centimetros
+print("Digite uma medida em metro para converter em centimetros")
+#medida = 10
+medida = input()
+if medida.isnumeric() == True:
+    print("A medida em cms é: " + str(int(medida) * 100))
+else:
+    print(str(medida) + " não é um número. Digite apenas números")
+    exit()
