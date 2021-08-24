@@ -147,19 +147,18 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 <button onclick="myFunction('soft2')" class="w3-button w3-block w3-black w3-left-align">Certificações na DIGITAL INNOVAION ONE:</button>
 <div id="soft2" class="w3-hide w3-container">
     <p>
-    <a href="https://certificates.digitalinnovation.one/5FF601F4">Recriando a Interface do Netflix</a><br>
-    <a href="https://certificates.digitalinnovation.one/C776AE87">Desenvolvimento avançado com JavaScript ES6 </a><br>
-    <a href="https://certificates.digitalinnovation.one/AE092D10">Trabalhando com Componentes em React </a><br>
-    <a href="https://certificates.digitalinnovation.one/C5A5FE9A">Introdução ao ReactJS </a><br>
-    <a href="https://certificates.digitalinnovation.one/F91A0065">Programação para internet com JavaScript </a><br>
-    <a href="https://certificates.digitalinnovation.one/3989A1A2">JavaScript ES6 essencial </a><br>
-    <a href="https://certificates.digitalinnovation.one/764276F0">Introdução a criação de websites com HTML5 e CSS3</a><br>
-    <a href="https://certificates.digitalinnovation.one/CAA30B60">Construindo páginas para internet com Bootstrap </a><br>
-    <a href="https://certificates.digitalinnovation.one/C0B65F1B">Shell script - Manipulando Arquivos </a><br>
-    <a href="https://certificates.digitalinnovation.one/A2506739">Programação para internet com JavaScript </a><br>
-    <a href="https://certificates.digitalinnovation.one/BA251D71">Criando um APP simples de cadastro de séries em .NET</a><br>
-    <a href="https://certificates.digitalinnovation.one/39F1D76E">Orientação a objetos em .NET </a><br>
-    Essas são algumas de minhas certificações, atualmente. Mas tendo em vista minha sede tec adicionarei mais alguns certificados em breve.  
+    <a href="https://certificates.digitalinnovation.one/5FF601F4">Recriando a Interface do Netflix</a>
+    <a href="https://certificates.digitalinnovation.one/C776AE87">Desenvolvimento avançado com JavaScript ES6 </a>
+    <a href="https://certificates.digitalinnovation.one/AE092D10">Trabalhando com Componentes em React </a>
+    <a href="https://certificates.digitalinnovation.one/C5A5FE9A">Introdução ao ReactJS </a>
+    <a href="https://certificates.digitalinnovation.one/F91A0065">Programação para internet com JavaScript </a>
+    <a href="https://certificates.digitalinnovation.one/3989A1A2">JavaScript ES6 essencial </a>
+    <a href="https://certificates.digitalinnovation.one/764276F0">Introdução a criação de websites com HTML5 e CSS3</a>
+    <a href="https://certificates.digitalinnovation.one/CAA30B60">Construindo páginas para internet com Bootstrap </a>
+    <a href="https://certificates.digitalinnovation.one/C0B65F1B">Shell script - Manipulando Arquivos </a>
+    <a href="https://certificates.digitalinnovation.one/A2506739">Programação para internet com JavaScript </a>
+    <a href="https://certificates.digitalinnovation.one/BA251D71">Criando um APP simples de cadastro de séries em .NET</a>
+    <a href="https://certificates.digitalinnovation.one/39F1D76E">Orientação a objetos em .NET </a>
     </p>
 </div>
 <button onclick="myFunction('soft1')" class="w3-button w3-block w3-green w3-left-align">Softwares/Sistemas Operacionais</button>
