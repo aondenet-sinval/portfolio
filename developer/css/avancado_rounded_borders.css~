@@ -75,7 +75,7 @@ Definição de bordas:
   border-image: url(../../img/path10.png) 30 round;
 }
 #stic_educational_img {
-  border: 30px solid transparent;
+  border: 20px solid transparent;
   padding: 15px;
   border-image: url(../../img/path10.png) 30 stretch;
 }

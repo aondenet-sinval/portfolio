@@ -2,5 +2,5 @@
     background: url(../../img/vila.png) center bottom no-repeat, url(../../img/path10.png) right top no-repeat;
     padding: 15px;
     background-size: 350px, 30px, auto;
-    min-height: 500px;
+    min-height: 600px;
 }
