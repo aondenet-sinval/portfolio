@@ -1,0 +1,17 @@
+#lin-grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow, purple);
+}
+
+#lin-grad2 {
+  height: 200px;
+  background-color: yellowgreen; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, black, yellow);
+}
+
+#lin-grad3 {
+  height: 200px;
+  background-color: yellowgreen; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, black, yellow);
+}
