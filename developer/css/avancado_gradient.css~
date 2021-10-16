@@ -7,11 +7,73 @@
 #lin-grad2 {
   height: 200px;
   background-color: yellowgreen; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, red , yellow);
+  background-image: linear-gradient(to right, black, yellow);
 }
 
 #lin-grad3 {
   height: 200px;
   background-color: yellowgreen; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to bottom right, red, yellow);
+  background-image: linear-gradient(to bottom right, black, yellow);
+}
+
+#lin-grad4 {
+  height: 200px;
+  width: 200px;
+  background-color: yellowgreen; /* For browsers that do not support gradients */
+  background-image: linear-gradient(0deg, black, yellow);
+  text-align: center;
+}
+
+#lin-grad5 {
+  height: 200px;
+  width: 200px;
+  background-color: yellowgreen; /* For browsers that do not support gradients */
+  background-image: linear-gradient(70deg, black, yellow);
+  text-align: center;
+}
+
+#lin-grad6 {
+  height: 200px;
+  width: 200px;
+  background-color: yellowgreen; /* For browsers that do not support gradients */
+  background-image: linear-gradient(140deg, black, yellow);
+  text-align: center;
+}
+
+#lin-grad7 {
+  height: 200px;
+  width: 200px;
+  background-color: yellowgreen; /* For browsers that do not support gradients */
+  background-image: linear-gradient(310deg, black, yellow);
+  text-align: center;
+}
+
+#lin-grad8 {
+	width: 100%;
+	height: 200px;
+	background: url(../../img/mesa.png) no-repeat;
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+
+#lin-grad9 {
+  height: 150px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+
+#lin-grad9 {
+  height: 150px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: radial-gradient(violet 5%, yellow 15%, green 60%);
+}
+
+
+#lin-grad10 {
+  height: 150px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: conic-gradient(purple, yellow, green);
 }
