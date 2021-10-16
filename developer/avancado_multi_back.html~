@@ -21,7 +21,7 @@
 <a href="#">GRADIENTS</a>
 <a href="#">TEXT EFECTS</a>
 <a href="#">WEB FONTS</a>
-<a href="#">TRANSISIONS</a>
+<a href="#">TRANSITIONS</a>
 <a href="#">MULTIPLY COLUMNS</a>
 <a href="#">USER INTERFACE</a>
 </div>
@@ -29,7 +29,6 @@
 <div class="side">
 
 <h1>+ LINKS</h1>
-Erros de CSS <a href="css-error.html">CLIQUE AQUI</a>.<br>
 CSS Avançado <a href="avancado_rounded_borders.html"><span style="font-size: larger;">border-radius</span></a>.<br>
 CSS Avançado <a href="avancado_multi_back.html"><span style="font-size: larger;">Multiple Background</span></a>.<br>
 </div>

@@ -1,0 +1,4 @@
+#avancado_colors1 {background-color: rgba(255, 0, 0, 1.0);}  /* red with opacity */
+#avancado_colors2 {background-color: rgba(0, 255, 0, 1.0);}  /* red with opacity */
+#avancado_colors3 {background-color: rgba(0, 0, 255, 1.0);}  /* red with opacity */
+

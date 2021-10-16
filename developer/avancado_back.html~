@@ -5,17 +5,18 @@
 <title>Praticando conceitos de CSS Flexbox</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="./css/style.css" rel="stylesheet" type="text/css">
+<link href="./css/avancado_back.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <!-- Header -->
 <div class="header">
-  <h1>Sinval Gomes... </h1>
-  <p>Development <b>flexible</b> layout with flexbox.</p>
+			  <h1>Sinval Gomes... </h1>
+			  <p>Development <b>flexible</b> layout with flexbox.</p>
 </div>
 <!-- Navigation Bar -->
 <div class="navbar">
 		<a href="index.html">HOME</a>
-		<a href="avancado_colors.html">COLORS</a>
+		<a href="#">COLORS</a>
 		<a href="#">KEYWORDS</a>
 		<a href="#">GRADIENTS</a>
 		<a href="#">TEXT EFECTS</a>
@@ -31,19 +32,19 @@
 			CSS Avançado <a href="avancado_rounded_borders.html"><span style="font-size: larger;">border-radius</span></a>.<br>
 			CSS Avançado <a href="avancado_multi_back.html"><span style="font-size: larger;">Multiple Background</span></a>.<br>
 			CSS Avançado <a href="avancado_back.html"><span style="font-size: larger;">Background</span></a>.<br>
-			CSS Avançado <a href="avancado_colors.html"><span style="font-size: larger;">CSS Colors</span></a>.<br>
 		</div>
 
-<div class="main">
-<h3>Conceitos do flexbox:</h3>
-<p>Praticando conceitos desenvolvidos a partir do curso da Digital Innovation One.<br>
-E pesquisas nos sites da w3schools, CSS-TRICKS, ORIGAMID e Mozilla MDN.</p>
+		<div class="main">
+			<h3>Background avançado:</h3>
+			<div id="avancado_back1">
+					Aplicando background de imagens em diferentes posições/tamanhos.
+			</div>
 
-</div>
+		</div>
 </div>
 <!-- Footer -->
 <div class="footer">
-  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
+		  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
 </div>
 </body>
 </html>

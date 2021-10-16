@@ -1,0 +1,11 @@
+#avancado_back1 {
+  background: url(../../img/path10.png) left top no-repeat, 
+				  url(../../img/path10.png) right top no-repeat, 
+				  url(../../img/path10.png) right bottom no-repeat, 
+				  url(../../img/path10.png) left bottom no-repeat;
+  background-size: 50px, 130px, auto;
+  min-height: 250px;
+  text-align: center;
+  border: 10px dotted purple;
+  background-clip: content-box;
+}
