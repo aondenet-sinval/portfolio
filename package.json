@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Esse portfólio destaca meu conhecimento do Framework w3.css que com certeza é atraente pela leveza, velocidade, capacidade mobile, entre outras vantagens, que considero superiores ao Bootstrap, nesse caso.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aondenet-sinval/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aondenet-sinval/portfolio/issues"
+  },
+  "homepage": "https://github.com/aondenet-sinval/portfolio#readme"
+}
