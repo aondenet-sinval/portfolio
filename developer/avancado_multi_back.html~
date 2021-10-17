@@ -15,15 +15,15 @@
 </div>
 <!-- Navigation Bar -->
 <div class="navbar">
-<a href="index.html">HOME</a>
-<a href="#">COLORS</a>
-<a href="#">KEYWORDS</a>
-<a href="#">GRADIENTS</a>
-<a href="#">TEXT EFECTS</a>
-<a href="#">WEB FONTS</a>
-<a href="#">TRANSITIONS</a>
-<a href="#">MULTIPLY COLUMNS</a>
-<a href="#">USER INTERFACE</a>
+		<a href="index.html">HOME</a>
+		<a href="avancado_colors.html">COLORS</a>
+		<a href="avancado_colors.html">KEYWORDS</a>
+		<a href="avancado_gradient.html">GRADIENTS</a>
+		<a href="#">TEXT EFECTS</a>
+		<a href="#">WEB FONTS</a>
+		<a href="#">TRANSITIONS</a>
+		<a href="#">MULTIPLY COLUMNS</a>
+		<a href="#">USER INTERFACE</a>
 </div>
 <div class="row">
 <div class="side">
@@ -31,6 +31,7 @@
 <h1>+ LINKS</h1>
 CSS Avançado <a href="avancado_rounded_borders.html"><span style="font-size: larger;">border-radius</span></a>.<br>
 CSS Avançado <a href="avancado_multi_back.html"><span style="font-size: larger;">Multiple Background</span></a>.<br>
+CSS Avançado <a href="avancado_back.html"><span style="font-size: larger;">Background</span></a>.<br>
 </div>
 
 <div class="main">
