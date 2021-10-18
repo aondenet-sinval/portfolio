@@ -38,12 +38,13 @@
 	
 			<div class="main">
 						<h3>Conceitos de media query:</h3>
-						<p>Praticando conceitos. A instrução CSS muda  cor do h3 conforme as seguintes medidas e cores:<br>
+						<p>Praticando conceitos. A instrução CSS muda  cor do h4 (abaixo) conforme as seguintes medidas e cores:<br>
 							<h4>@media only screen and (max-width: 400px): GREEN</h4>						
 							<h4>@media only screen and (min-width: 401px): GOLDENROD</h4>						
 							<h4>@media only screen and (min-width: 700px): YELLOW</h4>						
 							<h4>@media only screen and (min-width: 900px): RED</h4>						
 						</p>
+						<h3>Aumente ou diminua janela do browser para ver o efeito</h3>
 						
 			</div>
 	</div>
