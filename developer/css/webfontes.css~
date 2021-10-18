@@ -70,14 +70,13 @@ a{  text-decoration: none;}
   }
 }
 /*
-Inserindo a responsividade para vídeos...
+Fontes personalizadas: Gunplay
 */
-video {
-  width: 100%;
-  height: auto;
+@font-face {
+   font-family: myFontsGunplay;
+   src: url(../fontes/gunplay_3d.ttf);
 }
 
-.max-video video {
-  max-width: 200px;
-  height: auto;
+.gunpl{
+   font-family: myFontsGunplay;
 }
