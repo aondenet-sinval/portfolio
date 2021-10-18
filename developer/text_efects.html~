@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Praticando conceitos de CSS Flexbox</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="./css/style.css" rel="stylesheet" type="text/css">
+<link href="./css/text_efects.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <!-- Header -->
@@ -18,7 +18,7 @@
 					<a href="avancado_colors.html">COLORS</a>
 					<a href="avancado_colors.html">KEYWORDS</a>
 					<a href="avancado_gradient.html">GRADIENTS</a>
-					<a href="text_efects.html">TEXT EFECTS</a>
+					<a href="text_efects">TEXT EFECTS</a>
 					<a href="webfontes.html">WEB FONTS</a>
 					<a href="#">TRANSITIONS</a>
 					<a href="#">MULTIPLY COLUMNS</a>
@@ -38,10 +38,19 @@
 					</div>
 			
 			<div class="main">
-			<h3>Conceitos do flexbox:</h3>
-			<p>Praticando conceitos desenvolvidos a partir do curso da Digital Innovation One.<br>
-			E pesquisas nos sites da w3schools, CSS-TRICKS, ORIGAMID e Mozilla MDN.</p>
-			
+			<h3>CSS Text:</h3>
+			<p>
+			Vamos ver aqui a propriedade text-overflow A propriedade que especifica como o conteúdo 
+			transbordado que não é exibido, deve ser sinalizado para o usuário.<br>
+			abaixo num campo com 350px veja como é tratado o que é transbordado:<br>
+			<p>Clip corta, ellipsis deixa uma reticências(...).</p>
+			<div><cite class="transbordo1"> Aqui estou tratando o primeiro texto em transbordamento com clip.</cite></div>
+			<div><cite class="transbordo2"> Aqui estou tratando o segundo texto em transbordamento com ellipsis.</cite></div>
+			A propriedade word-wrap quebra a palavra/linha, a fim de prevenir o vazamento.<br>
+			<div><cite class="transbordo3"> <p>Aqui estou tratando o segundo texto em quebra:
+			 com ellipsis abcdefghijlmnopqrstuvxz.</p></cite></div>
+			</p>
+			<p> Alinhamento 1 <span class="transbordo5"> alinhamento2</span></p>
 			</div>
 			</div>
 <!-- Footer -->
