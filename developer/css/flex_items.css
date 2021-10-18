@@ -1,0 +1,44 @@
+/*Elementos filhos (itens)
+
+Os elementos filhos diretos de um flex-container automaticamente se tornam flex items.*/
+.flex-container {
+  display: flex;
+  background-color: #f1f1f1;
+}
+/*flex itens*/
+.flex-container > div {
+  background-color: purple;;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+}
+
+/*
+A propriedade flex-grow especifica quanto um flex item irá crescer em relação ao resto dos flex items.
+*/
+/*
+A propriedade flex-shrink especifica o quanto um flex item irá encolher em relação ao resto dos flex items.
+*/
+/*
+A propriedade align-self
+
+A propriedade align-self especifica o alinhamento do item selecionado dentro do flex-container.
+
+A propriedade align-self substitui o alinhamento padrão definido pela propriedade align-items do contêiner.
+*/
+.flex-container-self {
+  display: flex;
+  height: 200px;
+  background-color: #f1f1f1;
+}
+
+.flex-container-self > div {
+  background-color: Orange;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
