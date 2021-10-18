@@ -73,7 +73,7 @@
 				<div class="flex-container">
 					<div style="flex-grow: 1">GROW 1</div>
 					<div style="flex-grow: 4">GROW 4</div>
-					<div style="flex-grow: 12">GROW 12</div>
+					<div style="flex-grow: 10">GROW 10</div>
 				</div>
 				<div class="flex-container">
 					<div style="flex-shrink: 0">SHRINK 0</div>
