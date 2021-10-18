@@ -49,8 +49,81 @@
 			A propriedade word-wrap quebra a palavra/linha, a fim de prevenir o vazamento.<br>
 			<div><cite class="transbordo3"> <p>Aqui estou tratando o segundo texto em quebra:
 			 com ellipsis abcdefghijlmnopqrstuvxz.</p></cite></div>
+		   Caso contrario haveria transbordamento.<br>
+			<div><cite class="transbordo4"> <p>Aqui estou tratando o segundo texto em quebra:
+			 com ellipsis abcdefghijlmnopqrstuvxz.</p></cite></div>
 			</p>
-			<p> Alinhamento 1 <span class="transbordo5"> alinhamento2</span></p>
+			<p> A instrução é usada para especificar se o navegador deve inserir ou não
+			 quebras de linha onde, normalmente, o texto vazaria de seu container. A instrução
+			  aceita os valores: normal, break-all, keep-all e break-word.<br>
+					<div class="narrow-wb normal-wb">Aqui aplicamos word-break: normal. Vamos ver o que acontece. Aqui vai
+					 texto adicional pra gente ver o que acontece. Vamos ver o que acontece. Aqui vai
+					 texto adicional pra gente ver o que acontece.</div><br>
+					<div class="narrow-wb breakAll">Aqui aplicamos word-break: break-all. Vamos ver o que acontece. 
+					Aqui vai texto adicional pra gente ver o que acontece. Vamos ver o que acontece. Aqui vai
+					 texto adicional pra gente ver o que acontece.</div><br>
+					<div class="narrow-wb keepAll">Aqui aplicamos word-break: keep-all. Vamos ver o que acontece. Aqui vai
+					 texto adicional pra gente ver o que acontece. Vamos ver o que acontece. Aqui vai
+					 texto adicional pra gente ver o que acontece.</div><br>
+					<div class="narrow-wb breakWord">Aqui aplicamos word-break: break-word. Vamos ver o que acontece. Aqui vai
+					 texto adicional pra gente ver o que acontece. Vamos ver o que acontece. Aqui vai
+					 texto adicional pra gente ver o que acontece.</div><br>
+					 <h5>Vamos ver num container menor: 350px</h5>
+					 <div class="narrow-wbc normal-wb">Aqui aplicamos word-break: normal. Vamos ver o que acontece. Aqui vai
+					 texto adicional pra gente ver o que acontece. Vamos ver o que acontece. Aqui vai
+					 texto adicional pra gente ver o que acontece.</div><br>
+					<div class="narrow-wbc breakAll">Aqui aplicamos word-break: break-all. Vamos ver o que acontece. 
+					Aqui vai texto adicional pra gente ver o que acontece. Vamos ver o que acontece. Aqui vai
+					 texto adicional pra gente ver o que acontece.</div><br>
+					<div class="narrow-wbc keepAll">Aqui aplicamos word-break: keep-all. Vamos ver o que acontece. Aqui vai
+					 texto adicional pra gente ver o que acontece. Vamos ver o que acontece. Aqui vai
+					 texto adicional pra gente ver o que acontece.</div><br>
+					<div class="narrow-wbc breakWord">Aqui aplicamos word-break: break-word. Vamos ver o que acontece. Aqui vai
+					 texto adicional pra gente ver o que acontece. Vamos ver o que acontece. Aqui vai
+					 texto adicional pra gente ver o que acontece.</div><br>
+			</p>
+			<h5>Vamos brincar agora com writing-mode.</h5>
+			<p>Essa propriedade define se as linhas do texto são dispostas horizontalmente ou
+			 verticalmente e a direção que os blocos seguem.</p>
+					<table>
+					    <tr>
+					        <th>value</th>
+					        <th>Vertical script</th>
+					        <th>Horizontal script</th>
+					        <th>Mixed script</th>
+					    </tr>
+					    <tr>
+					        <td>horizontal-tb</td>
+					        <td class="example Text1"><span>HORIZONTAL-TB</span></td>
+					        <td class="example Text1"><span>HORIZONTALTB</span></td>
+					        <td class="example Text1"><span>HORIZONTAL</span></td>
+					    </tr>
+					    <tr>
+					        <td>vertical-lr</td>
+					        <td class="example Text2"><span>VERTICAL LR</span></td>
+					        <td class="example Text2"><span>VERTICAL LR</span></td>
+					        <td class="example Text2"><span>VERTICAL LR</span></td>
+					    </tr>
+					    <tr>
+					        <td>vertical-rl</td>
+					        <td class="example Text3"><span>VERTICAL-RL</span></td>
+					        <td class="example Text3"><span>VERTICAL-RL</span></td>
+					        <td class="example Text3"><span>VERTICAL-RL</span></td>
+					    </tr>
+					    <tr>
+					        <td>sideways-lr</td>
+					        <td class="example Text4"><span>SIDEWAYS-LR</span></td>
+					        <td class="example Text4"><span>SIDEWAYS-LR</span></td>
+					        <td class="example Text4"><span>SIDEWAYS-LR</span></td>
+					    </tr>
+					    <tr>
+					        <td>sideways-rl</td>
+					        <td class="example Text5"><span>SIDEWAYS-RL</span></td>
+					        <td class="example Text5"><span>SIDEWAYS-RL</span></td>
+					        <td class="example Text5"><span>SIDEWAYS-RL</span></td>
+					    </tr>
+					</table>
+
 			</div>
 			</div>
 <!-- Footer -->

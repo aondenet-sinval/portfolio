@@ -92,8 +92,87 @@ div .transbordo2{
 }
 
 div .transbordo3 p { width: 100px; background: gold; word-wrap: break-word; }
-
+div .transbordo4 p { width: 100px; background: gold; }
 span .transbordo5 {
   writing-mode: vertical-rl;
   background: green;
 }
+/*
+CSS word-break, sequencialmente: normal, break-all, keep-all e break-word.
+*/
+
+.narrow-wb {
+    padding: 5px;
+    border: 1px solid;
+    display: table;
+    max-width: 100%;
+}
+
+.narrow-wbc {
+    padding: 5px;
+    border: 1px solid;
+    display: table;
+    max-width: 350px;
+}
+
+.normal-wb {
+    word-break: normal;
+}
+
+.breakAll {
+    word-break: break-all;
+}
+
+.keepAll {
+    word-break: keep-all;
+}
+
+.breakWord {
+    word-break: break-word;
+}
+
+/*
+CSS writing-mode alinhamento hor vert
+*/
+
+.exemplo1 .mode-v span{
+  writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: vertical-lr;
+  background: blueviolet;
+}
+
+/*
+mozzila
+*/
+
+.example.Text1 span, .example.Text1 {
+  writing-mode: horizontal-tb;
+  -webkit-writing-mode: horizontal-tb;
+  -ms-writing-mode: horizontal-tb;
+}
+
+.example.Text2 span, .example.Text2 {
+  writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: vertical-lr;
+}
+
+.example.Text3 span, .example.Text3 {
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+}
+
+.example.Text4 span, .example.Text4 {
+  writing-mode: sideways-lr;
+  -webkit-writing-mode: sideways-lr;
+  -ms-writing-mode: sideways-lr;
+}
+
+.example.Text5 span, .example.Text5 {
+  writing-mode: sideways-rl;
+  -webkit-writing-mode: sideways-rl;
+  -ms-writing-mode: sideways-rl;
+}
+td{ border: solid black 1px; height: 40px; }
