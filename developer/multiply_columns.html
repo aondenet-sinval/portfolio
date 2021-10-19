@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Praticando conceitos de CSS Flexbox</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="./css/multiply_columns.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!-- Header -->
+	<div class="header">
+	  <h1>Sinval Gomes... </h1>
+	  <p>Development <b>flexible</b> layout with flexbox.</p>
+	</div>
+			<!-- Navigation Bar -->
+			<div class="navbar">
+					<a href="index.html">HOME</a>
+					<a href="avancado_colors.html">COLORS</a>
+					<a href="avancado_colors.html">KEYWORDS</a>
+					<a href="avancado_gradient.html">GRADIENTS</a>
+					<a href="text_efects.html">TEXT EFECTS</a>
+					<a href="webfontes.html">WEB FONTS</a>
+					<a href="#">TRANSITIONS</a>
+					<a href="#">MULTIPLY COLUMNS</a>
+					<a href="#">USER INTERFACE</a>
+			</div>
+			<div class="row">
+					<div class="side">						
+						<h1>+ LINKS</h1>
+						CSS Avançado <a href="avancado_rounded_borders.html"><span style="font-size: larger;">border-radius</span></a>.<br>
+						CSS Avançado <a href="avancado_multi_back.html"><span style="font-size: larger;">Multiple Background</span></a>.<br>
+						CSS Avançado <a href="avancado_back.html"><span style="font-size: larger;">Background</span></a>.<br>
+						CSS Avançado <a href="avancado_colors.html"><span style="font-size: larger;">CSS Colors</span></a>.<br>
+						CSS Avançado <a href="flex_items.html"><span style="font-size: larger;">Flex Items</span></a>.<br>
+						CSS Avançado <a href="mquery.html"><span style="font-size: larger;">Media Query</span></a>.<br>
+						CSS Avançado <a href="rwdvideos.html"><span style="font-size: larger;">RWD Vídeos</span></a>.<br>
+						CSS Avançado <a href="flex_direction.html"><span style="font-size: larger;">Flex Direction</span></a>.<br>
+						CSS Avançado <a href="justify.html"><span style="font-size: larger;">Justify Content</span></a>.<br>
+						CSS Avançado <a href="justify_align_items_center.html"><span style="font-size: larger;">Justify + Align Items</span></a>.<br>
+					</div>
+			
+				<div class="main">
+				<h3>Aplicando multiplas colunas:</h3>
+				<p>O layout CSS de várias colunas permite fácil definição de várias colunas de texto.</p>
+				<ul>							
+						    <li>column-count</li>
+						    <li>column-gap</li>
+						    <li>column-rule-style</li>
+						    <li>column-rule-width</li>
+						    <li>column-rule-color</li>
+						    <li>column-rule</li>
+						    <li>column-span</li>
+						    <li>column-width</li>				
+				</ul>
+				<h5>Imagine que você tivesse que distribuir todo o texto abaixo em 3 colunas.<br>
+				Usando column-count você pode definir a quantidade de colunas, sem escrever muito código.</h5>				
+				<div class="tree-col">Lorem ipsum dolor sit amet, consecteteur adipiscing elit metus lacus urna a. 
+				Pede platea malesuada molestie id sit curabitur justo nibh. 
+				Nec mi sollicitudin natoque, elementum inceptos. Duis purus tellus augue habitant duis, hac quis parturient. 
+				Fusce parturient scelerisque ligula. Vehicula massa eu a turpis. Nam mollis sem rhoncus praesent lectus ornare 
+				vulputate neque ut diam orci convallis maecenas. Pellentesque mattis ut, quis montes. Duis. Donec integer ad, 
+				facilisi vitae ut velit. Duis duis morbi habitasse senectus et primis porttitor.
+				</div>
+				<h5>A propriedade column-gap especifica a lacuna entre as colunas.</h5>
+				<div class="tree-col tree-gap-col">Lorem ipsum dolor sit amet, consecteteur adipiscing elit metus lacus urna a. 
+				Pede platea malesuada molestie id sit curabitur justo nibh. 
+				Nec mi sollicitudin natoque, elementum inceptos. Duis purus tellus augue habitant duis, hac quis parturient. 
+				Fusce parturient scelerisque ligula. Vehicula massa eu a turpis. Nam mollis sem rhoncus praesent lectus ornare 
+				vulputate neque ut diam orci convallis maecenas. Pellentesque mattis ut, quis montes. Duis. Donec integer ad, 
+				facilisi vitae ut velit. Duis duis morbi habitasse senectus et primis porttitor.
+				</div>
+				<h5>A propriedade column-rule-style especifica o estilo do elemento entre as colunas:</h5>
+				<div class="tree-col tree-gap-col tree-rule-style">Lorem ipsum dolor sit amet, consecteteur adipiscing elit metus lacus urna a. 
+				Pede platea malesuada molestie id sit curabitur justo nibh. 
+				Nec mi sollicitudin natoque, elementum inceptos. Duis purus tellus augue habitant duis, hac quis parturient. 
+				Fusce parturient scelerisque ligula. Vehicula massa eu a turpis. Nam mollis sem rhoncus praesent lectus ornare 
+				vulputate neque ut diam orci convallis maecenas. Pellentesque mattis ut, quis montes. Duis. Donec integer ad, 
+				facilisi vitae ut velit. Duis duis morbi habitasse senectus et primis porttitor.
+				</div>
+				<h5>A propriedade column-rule-width especifica a largura da regra entre as colunas:</h5>	
+				<div class="tree-col tree-gap-col tree-rule-width">Lorem ipsum dolor sit amet, consecteteur adipiscing elit metus lacus urna a. 
+				Pede platea malesuada molestie id sit curabitur justo nibh. 
+				Nec mi sollicitudin natoque, elementum inceptos. Duis purus tellus augue habitant duis, hac quis parturient. 
+				Fusce parturient scelerisque ligula. Vehicula massa eu a turpis. Nam mollis sem rhoncus praesent lectus ornare 
+				vulputate neque ut diam orci convallis maecenas. Pellentesque mattis ut, quis montes. Duis. Donec integer ad, 
+				facilisi vitae ut velit. Duis duis morbi habitasse senectus et primis porttitor.
+				</div>
+				<h5>A propriedade rule-color define a cor do elemento separador da coluna.</h5>	
+				<div class="tree-rule-color"><p>Lorem ipsum dolor sit amet, consecteteur adipiscing elit metus lacus urna a. 
+				Pede platea malesuada molestie id sit curabitur justo nibh. 
+				Nec mi sollicitudin natoque, elementum inceptos. Duis purus tellus augue habitant duis, hac quis parturient. 
+				Fusce parturient scelerisque ligula. Vehicula massa eu a turpis. Nam mollis sem rhoncus praesent lectus ornare 
+				vulputate neque ut diam orci convallis maecenas. Pellentesque mattis ut, quis montes. Duis. Donec integer ad, 
+				facilisi vitae ut velit. Duis duis morbi habitasse senectus et primis porttitor.</p>
+				</div>
+				<h5>A propriedade column-span especifica por quantas colunas um elemento deve se estender. Aqui o valor all foi definido</h5>	
+				<div class="col-all">Lorem ipsum dolor sit amet, consecteteur adipiscing elit metus lacus urna a. 
+				Pede platea malesuada molestie id sit curabitur justo nibh. 
+				Nec mi sollicitudin natoque, elementum inceptos. Duis purus tellus augue habitant duis, hac quis parturient. 
+				Fusce parturient scelerisque ligula. Vehicula massa eu a turpis. Nam mollis sem rhoncus praesent lectus ornare 
+				vulputate neque ut diam orci convallis maecenas. Pellentesque mattis ut, quis montes. Duis. Donec integer ad, 
+				facilisi vitae ut velit. Duis duis morbi habitasse senectus et primis porttitor.
+				</div>
+				<h5>A propriedade column-width especifica uma largura ideal sugerida para as colunas.</h5>
+				<div class="width-col">Lorem ipsum dolor sit amet, consecteteur adipiscing elit metus lacus urna a. 
+				Pede platea malesuada molestie id sit curabitur justo nibh. 
+				Nec mi sollicitudin natoque, elementum inceptos. Duis purus tellus augue habitant duis, hac quis parturient. 
+				Fusce parturient scelerisque ligula. Vehicula massa eu a turpis. Nam mollis sem rhoncus praesent lectus ornare 
+				vulputate neque ut diam orci convallis maecenas. Pellentesque mattis ut, quis montes. Duis. Donec integer ad, 
+				facilisi vitae ut velit. Duis duis morbi habitasse senectus et primis porttitor.
+				</div>																	
+				</div>
+				</div>
+					<!-- Footer -->
+					<div class="footer">
+					  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
+					</div>
+</body>
+</html>
