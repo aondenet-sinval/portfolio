@@ -7,60 +7,63 @@
 <link href="./css/rwdvideos.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<!-- Header -->
-<div class="header">
-  <h1>Sinval Gomes... </h1>
-  <p>Development <b>flexible</b> layout with flexbox.</p>
-</div>
-<!-- Navigation Bar -->
-<div class="navbar">
-		<a href="index.html">HOME</a>
-		<a href="avancado_colors.html">COLORS</a>
-		<a href="avancado_colors.html">KEYWORDS</a>
-		<a href="avancado_gradient.html">GRADIENTS</a>
-		<a href="#">TEXT EFECTS</a>
-		<a href="#">WEB FONTS</a>
-		<a href="#">TRANSITIONS</a>
-		<a href="#">MULTIPLY COLUMNS</a>
-		<a href="#">USER INTERFACE</a>
-</div>
-<div class="row">
-		<div class="side">
+	<!-- Header -->
+	<div class="header">
+	  <h1>Sinval Gomes... </h1>
+	  <p>Development <b>flexible</b> layout with flexbox.</p>
+	</div>
+			<!-- Navigation Bar -->
+			<div class="navbar">
+					<a href="index.html">HOME</a>
+					<a href="avancado_colors.html">COLORS</a>
+					<a href="avancado_colors.html">KEYWORDS</a>
+					<a href="avancado_gradient.html">GRADIENTS</a>
+					<a href="#">TEXT EFECTS</a>
+					<a href="webfontes.html">WEB FONTS</a>
+					<a href="#">TRANSITIONS</a>
+					<a href="#">MULTIPLY COLUMNS</a>
+					<a href="#">USER INTERFACE</a>
+			</div>
+			<div class="row">
+					<div class="side">						
+						<h1>+ LINKS</h1>
+						CSS Avançado <a href="avancado_rounded_borders.html"><span style="font-size: larger;">border-radius</span></a>.<br>
+						CSS Avançado <a href="avancado_multi_back.html"><span style="font-size: larger;">Multiple Background</span></a>.<br>
+						CSS Avançado <a href="avancado_back.html"><span style="font-size: larger;">Background</span></a>.<br>
+						CSS Avançado <a href="avancado_colors.html"><span style="font-size: larger;">CSS Colors</span></a>.<br>
+						CSS Avançado <a href="flex_items.html"><span style="font-size: larger;">Flex Items</span></a>.<br>
+						CSS Avançado <a href="mquery.html"><span style="font-size: larger;">Media Query</span></a>.<br>
+						CSS Avançado <a href="rwdvideos.html"><span style="font-size: larger;">RWD Vídeos</span></a>.<br>
+						CSS Avançado <a href="flex_direction.html"><span style="font-size: larger;">Flex Direction</span></a>.<br>
+						CSS Avançado <a href="justify.html"><span style="font-size: larger;">Justify Content</span></a>.<br>
+						CSS Avançado <a href="justify_align_items.html"><span style="font-size: larger;">Justify + Align Items</span></a>.<br>
+					</div>
 			
-			<h1>+ LINKS</h1>
-			CSS Avançado <a href="avancado_rounded_borders.html"><span style="font-size: larger;">border-radius</span></a>.<br>
-			CSS Avançado <a href="avancado_multi_back.html"><span style="font-size: larger;">Multiple Background</span></a>.<br>
-			CSS Avançado <a href="avancado_back.html"><span style="font-size: larger;">Background</span></a>.<br>
-			CSS Avançado <a href="avancado_colors.html"><span style="font-size: larger;">CSS Colors</span></a>.<br>
-			CSS Avançado <a href="flex_items.html"><span style="font-size: larger;">Flex Items</span></a>.<br>
-			CSS Avançado <a href="mquery.html"><span style="font-size: larger;">Media Query</span></a>.<br>
-		</div>
-
-		<div class="main">
-			<h3>Usando Responsivo Design Web Vídeos:</h3>
-			<p>Se a propriedade de largura for definida como 100%, o player de vídeo será responsivo e aumentará ou diminuirá:<br>
-			
-					<video width="400" controls>
-					  <source src="./videos/Site-para-empresas.mp4" type="video/mp4">
-					  Seu browser não suporta vídeo em html5.
-					</video>
-			Mas o perigo dessa opção é que o vídeo pode ficar maior que seu tamanho original, comprometendo a qualidade.<br>					
-			</p>
-			<p class="max-video wrap">
-			O que fazer?<br>
-			Se usarmos a propriedade max-width como 100%, o player de vídeo 
-			diminuirá se for necessário, mas nunca aumentará para ser maior do que seu tamanho original.<br>
-			Mas, também podemos limitar a resolução definindo um valor estrito.<br>
-					<video width="400" controls>
-					  <source src="./videos/site-projeto.ogv" type="video/ogg">
-					  Seu browser não suporta vídeo em html5.
-					</video>	
-			</p>		
-		</div>
-</div>
-<!-- Footer -->
-<div class="footer">
-  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
-</div>
+					<div class="main">
+						<h3>Usando Responsivo Design Web Vídeos:</h3>
+						<p>Se a propriedade de largura for definida como 100%, o player de vídeo será responsivo e aumentará ou diminuirá:<br>
+						
+								<video width="400" controls>
+								  <source src="./videos/Site-para-empresas.mp4" type="video/mp4">
+								  Seu browser não suporta vídeo em html5.
+								</video>
+						Mas o perigo dessa opção é que o vídeo pode ficar maior que seu tamanho original, comprometendo a qualidade.<br>					
+						</p>
+						<p class="max-video wrap">
+						O que fazer?<br>
+						Se usarmos a propriedade max-width como 100%, o player de vídeo 
+						diminuirá se for necessário, mas nunca aumentará para ser maior do que seu tamanho original.<br>
+						Mas, também podemos limitar a resolução definindo um valor estrito.<br>
+								<video width="400" controls>
+								  <source src="./videos/site-projeto.ogv" type="video/ogg">
+								  Seu browser não suporta vídeo em html5.
+								</video>	
+						</p>		
+					</div>
+			</div>
+	<!-- Footer -->
+	<div class="footer">
+	  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
+	</div>
 </body>
 </html>

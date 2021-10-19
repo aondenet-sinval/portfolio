@@ -8,83 +8,86 @@
 <link href="./css/avancado_colors.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<!-- Header -->
-<div class="header">
-			  <h1>Sinval Gomes... </h1>
-			  <p>Development <b>flexible</b> layout with flexbox.</p>
-</div>
-<!-- Navigation Bar -->
-<div class="navbar">
-		<a href="index.html">HOME</a>
-		<a href="avancado_colors.html">COLORS</a>
-		<a href="avancado_colors.html">KEYWORDS</a>
-		<a href="avancado_gradient.html">GRADIENTS</a>
-		<a href="#">TEXT EFECTS</a>
-		<a href="#">WEB FONTS</a>
-		<a href="#">TRANSITIONS</a>
-		<a href="#">MULTIPLY COLUMNS</a>
-		<a href="#">USER INTERFACE</a>
-</div>
-<div class="row">
-		<div class="side">
-			
-			<h1>+ LINKS</h1>
-			CSS Avançado <a href="avancado_rounded_borders.html"><span style="font-size: larger;">border-radius</span></a>.<br>
-			CSS Avançado <a href="avancado_multi_back.html"><span style="font-size: larger;">Multiple Background</span></a>.<br>
-			CSS Avançado <a href="avancado_back.html"><span style="font-size: larger;">Background</span></a>.<br>
-			CSS Avançado <a href="avancado_colors.html"><span style="font-size: larger;">CSS Colors</span></a>.<br>
-			CSS Avançado <a href="flex_items.html"><span style="font-size: larger;">Flex Items</span></a>.<br>
-			CSS Avançado <a href="mquery.html"><span style="font-size: larger;">Media Query</span></a>.<br>
-		</div>
-
-		<div class="main">
-			<h3>Background avançado:</h3>
-			<h4>Cores RGBA</h4>
-			<p>
-					Um valor de cor RGBA é especificado com: rgba (vermelho, verde, azul, alfa). 
-					O parâmetro alfa é um número entre 0,0 (totalmente transparente) e 1,0 (totalmente opaco).
-			</p>
-			<div id="avancado_colors1">VERMELHO: rgba(255, 0, 0, 1.0);</div>
-			<div id="avancado_colors2">VERDE: rgba(0, 255, 0, 1.0);</div>
-			<div id="avancado_colors3">AZUL: rgba(0, 0, 255, 1.0);</div>
-			<div id="avancado_colors4">VERMELHO: rgba(255, 0, 0, 0.5);</div>
-			<div id="avancado_colors5">VERDE: rgba(0, 255, 0, 0.5);</div>
-			<div id="avancado_colors6">AZUL: rgba(0, 0, 255, 0.5);</div>
-			<h4>Cores HSL</h4>			
-			<p>
-					Um valor de cor HSL é especificado com: hsl (matiz, saturação, claridade).<br>
-					O matiz é um grau na roda de cores (de 0 a 360):<br>
-					0 (ou 360) é vermelho; 120 é verde e 240 é azul.			
-			</p>
-			<div id="avancado_colors7">VERMELHO: hsl(360, 100%, 50%);</div>
-			<div id="avancado_colors8">VERDE: hsl(120, 100%, 50%);</div>
-			<div id="avancado_colors9">AZUL: hsl(240, 100%, 50%);</div>
-			<div id="avancado_colors10">VERMELHO: hsl(0, 100%, 50%);</div>
-			<h4>CSS Opacidade</h4>			
-			<p>
-					Essa propriedade define a opacidade de todo o elemento (a cor de fundo e o texto serão opacos / transparentes).			
-			</p>
-			<div id="avancado_colors11">VERMELHO Opaco: rgba(255, 0, 0);opacity:0.1;</div>
-			<h4>Usando transparencia</h4>
-			      <p>
-							Podemos usar para criar uma cor de fundo transparente para um elemento.
-			      </p>
-			<div id="container-transparent">
-						<div class="transp1">GREEN</div>			
-						<div class="transp2">TRANSPARENTE</div>			
+	<!-- Header -->
+	<div class="header">
+				  <h1>Sinval Gomes... </h1>
+				  <p>Development <b>flexible</b> layout with flexbox.</p>
+	</div>
+			<!-- Navigation Bar -->
+			<div class="navbar">
+					<a href="index.html">HOME</a>
+					<a href="avancado_colors.html">COLORS</a>
+					<a href="avancado_colors.html">KEYWORDS</a>
+					<a href="avancado_gradient.html">GRADIENTS</a>
+					<a href="#">TEXT EFECTS</a>
+					<a href="webfontes.html">WEB FONTS</a>
+					<a href="#">TRANSITIONS</a>
+					<a href="#">MULTIPLY COLUMNS</a>
+					<a href="#">USER INTERFACE</a>
 			</div>
-			<h4>A palavra-chave currentcolor</h4>
-					<p>
-							Exemplo: Cor atribuída ao elemento	green. Aplicamos: border: 10px solid currentcolor;				
-					</p>			
-					<div class="color-current1">
-							Dá consistência ao valor atual da propriedade color de um elemento.<br>				
+			<div class="row">
+					<div class="side">						
+						<h1>+ LINKS</h1>
+						CSS Avançado <a href="avancado_rounded_borders.html"><span style="font-size: larger;">border-radius</span></a>.<br>
+						CSS Avançado <a href="avancado_multi_back.html"><span style="font-size: larger;">Multiple Background</span></a>.<br>
+						CSS Avançado <a href="avancado_back.html"><span style="font-size: larger;">Background</span></a>.<br>
+						CSS Avançado <a href="avancado_colors.html"><span style="font-size: larger;">CSS Colors</span></a>.<br>
+						CSS Avançado <a href="flex_items.html"><span style="font-size: larger;">Flex Items</span></a>.<br>
+						CSS Avançado <a href="mquery.html"><span style="font-size: larger;">Media Query</span></a>.<br>
+						CSS Avançado <a href="rwdvideos.html"><span style="font-size: larger;">RWD Vídeos</span></a>.<br>
+						CSS Avançado <a href="flex_direction.html"><span style="font-size: larger;">Flex Direction</span></a>.<br>
+						CSS Avançado <a href="justify.html"><span style="font-size: larger;">Justify Content</span></a>.<br>
+						CSS Avançado <a href="justify_align_items.html"><span style="font-size: larger;">Justify + Align Items</span></a>.<br>
 					</div>
-		</div>
-</div>
-<!-- Footer -->
-<div class="footer">
-		  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
-</div>
+			
+					<div class="main">
+						<h3>Background avançado:</h3>
+						<h4>Cores RGBA</h4>
+						<p>
+								Um valor de cor RGBA é especificado com: rgba (vermelho, verde, azul, alfa). 
+								O parâmetro alfa é um número entre 0,0 (totalmente transparente) e 1,0 (totalmente opaco).
+						</p>
+						<div id="avancado_colors1">VERMELHO: rgba(255, 0, 0, 1.0);</div>
+						<div id="avancado_colors2">VERDE: rgba(0, 255, 0, 1.0);</div>
+						<div id="avancado_colors3">AZUL: rgba(0, 0, 255, 1.0);</div>
+						<div id="avancado_colors4">VERMELHO: rgba(255, 0, 0, 0.5);</div>
+						<div id="avancado_colors5">VERDE: rgba(0, 255, 0, 0.5);</div>
+						<div id="avancado_colors6">AZUL: rgba(0, 0, 255, 0.5);</div>
+						<h4>Cores HSL</h4>			
+						<p>
+								Um valor de cor HSL é especificado com: hsl (matiz, saturação, claridade).<br>
+								O matiz é um grau na roda de cores (de 0 a 360):<br>
+								0 (ou 360) é vermelho; 120 é verde e 240 é azul.			
+						</p>
+						<div id="avancado_colors7">VERMELHO: hsl(360, 100%, 50%);</div>
+						<div id="avancado_colors8">VERDE: hsl(120, 100%, 50%);</div>
+						<div id="avancado_colors9">AZUL: hsl(240, 100%, 50%);</div>
+						<div id="avancado_colors10">VERMELHO: hsl(0, 100%, 50%);</div>
+						<h4>CSS Opacidade</h4>			
+						<p>
+								Essa propriedade define a opacidade de todo o elemento (a cor de fundo e o texto serão opacos / transparentes).			
+						</p>
+						<div id="avancado_colors11">VERMELHO Opaco: rgba(255, 0, 0);opacity:0.1;</div>
+						<h4>Usando transparencia</h4>
+						      <p>
+										Podemos usar para criar uma cor de fundo transparente para um elemento.
+						      </p>
+						<div id="container-transparent">
+									<div class="transp1">GREEN</div>			
+									<div class="transp2">TRANSPARENTE</div>			
+						</div>
+						<h4>A palavra-chave currentcolor</h4>
+								<p>
+										Exemplo: Cor atribuída ao elemento	green. Aplicamos: border: 10px solid currentcolor;				
+								</p>			
+								<div class="color-current1">
+										Dá consistência ao valor atual da propriedade color de um elemento.<br>				
+								</div>
+					</div>
+			</div>
+	<!-- Footer -->
+	<div class="footer">
+			  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
+	</div>
 </body>
 </html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Praticando conceitos de CSS Flexbox</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="./css/flex_direction.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!-- Header -->
+	<div class="header">
+	  <h1>Sinval Gomes... </h1>
+	  <p>Development <b>flexible</b> layout with flexbox.</p>
+	</div>
+			<!-- Navigation Bar -->
+			<div class="navbar">
+					<a href="index.html">HOME</a>
+					<a href="avancado_colors.html">COLORS</a>
+					<a href="avancado_colors.html">KEYWORDS</a>
+					<a href="avancado_gradient.html">GRADIENTS</a>
+					<a href="text_efects.html">TEXT EFECTS</a>
+					<a href="webfontes.html">WEB FONTS</a>
+					<a href="#">TRANSITIONS</a>
+					<a href="#">MULTIPLY COLUMNS</a>
+					<a href="#">USER INTERFACE</a>
+			</div>
+			<div class="row">
+					<div class="side">						
+						<h1>+ LINKS</h1>
+						CSS Avançado <a href="avancado_rounded_borders.html"><span style="font-size: larger;">border-radius</span></a>.<br>
+						CSS Avançado <a href="avancado_multi_back.html"><span style="font-size: larger;">Multiple Background</span></a>.<br>
+						CSS Avançado <a href="avancado_back.html"><span style="font-size: larger;">Background</span></a>.<br>
+						CSS Avançado <a href="avancado_colors.html"><span style="font-size: larger;">CSS Colors</span></a>.<br>
+						CSS Avançado <a href="flex_items.html"><span style="font-size: larger;">Flex Items</span></a>.<br>
+						CSS Avançado <a href="mquery.html"><span style="font-size: larger;">Media Query</span></a>.<br>
+						CSS Avançado <a href="rwdvideos.html"><span style="font-size: larger;">RWD Vídeos</span></a>.<br>
+						CSS Avançado <a href="flex_direction.html"><span style="font-size: larger;">Flex Direction</span></a>.<br>
+						CSS Avançado <a href="justify.html"><span style="font-size: larger;">Justify Content</span></a>.<br>
+						CSS Avançado <a href="justify_align_items.html"><span style="font-size: larger;">Justify + Align Items</span></a>.<br>
+					</div>
+			
+					<div class="main">
+					<h3>Conceitos do flexbox:</h3>
+					<p>Aplicando conceitos: Justify Content + align-items para melhorar a brincadeira...</p>
+						<h5>Justify flex-start + align-items center... </h5>
+								<div  style="height: 60px;width: 360px;justify-content: flex-start;align-items: center;" class="container-row fundo-color">
+											<div class="ac">ROW</div>
+											<div class="bc">ROW</div>
+											<div class="cc">ROW</div>
+											<div class="dc">ROW</div>
+		
+								</div>
+								<h5>Justify flex-end + align-items center...</h5>
+								<div   style="height: 60px;width: 360px;justify-content: flex-end;align-items: center;" class="container-row fundo-color">
+											<div class="ac">ROW</div>
+											<div class="bc">ROW</div>
+											<div class="cc">ROW</div>
+											<div class="dc">ROW</div>
+		
+								</div>						
+								<h5>Justify center + align-items center...</h5>						
+								<div style="width: 360px;height: 360px;justify-content: center;align-items: center;" class="container-row wrap fundo-color">
+											<div style="width: 60px;height: 60px;" class="bc">ROW</div>
+											<div style="width: 60px;height: 60px;" class="cc">ROW</div>
+											<div style="width: 60px;height: 60px;" class="dc">ROW</div>
+								</div>	
+								<h5>Justify space-between + align-items center...</h5>											
+								<div style="width: 360px;height: 360px;justify-content: space-between;align-items: center;" class="container-row-reverse wrap fundo-color">
+											<div style="width: 60px;height: 60px;" class="ac">ROW-A</div>
+											<div style="width: 60px;height: 60px;" class="bc">ROW-B</div>
+											<div style="width: 60px;height: 60px;" class="dc">ROW-C</div>
+											<div style="width: 60px;height: 60px;" class="ac">ROW-A</div>
+											<div style="width: 60px;height: 60px;" class="bc">ROW-B</div>
+											<div style="width: 60px;height: 60px;" class="dc">ROW-C</div>
+											<div style="width: 60px;height: 60px;" class="ac">ROW-A</div>
+											<div style="width: 60px;height: 60px;" class="bc">ROW-B</div>
+											<div style="width: 60px;height: 60px;" class="dc">ROW-C</div>
+								</div>
+								<h5>Justify space-around + align-items center...</h5>											
+								<div style="width: 360px;height: 360px;justify-content: space-around;align-items: center;" class="container-row-reverse wrap fundo-color">
+											<div style="width: 60px;height: 60px;" class="ac">ROW-A</div>
+											<div style="width: 60px;height: 60px;" class="bc">ROW-B</div>
+											<div style="width: 60px;height: 60px;" class="dc">ROW-C</div>
+											<div style="width: 60px;height: 60px;" class="ac">ROW-A</div>
+											<div style="width: 60px;height: 60px;" class="bc">ROW-B</div>
+											<div style="width: 60px;height: 60px;" class="dc">ROW-C</div>
+											<div style="width: 60px;height: 60px;" class="ac">ROW-A</div>
+											<div style="width: 60px;height: 60px;" class="bc">ROW-B</div>
+											<div style="width: 60px;height: 60px;" class="dc">ROW-C</div>
+								</div>
+								<h5>Justify space-evenly + align-items center...</h5>											
+								<div style="width: 360px;height: 360px;justify-content: space-evenly;align-items: center;" class="container-row-reverse wrap fundo-color">
+											<div style="width: 60px;height: 60px;" class="ac">ROW-A</div>
+											<div style="width: 60px;height: 60px;" class="bc">ROW-B</div>
+											<div style="width: 60px;height: 60px;" class="dc">ROW-C</div>
+											<div style="width: 60px;height: 60px;" class="ac">ROW-A</div>
+											<div style="width: 60px;height: 60px;" class="bc">ROW-B</div>
+											<div style="width: 60px;height: 60px;" class="dc">ROW-C</div>
+											<div style="width: 60px;height: 60px;" class="ac">ROW-A</div>
+											<div style="width: 60px;height: 60px;" class="bc">ROW-B</div>
+											<div style="width: 60px;height: 60px;" class="dc">ROW-C</div>
+								</div>
+					</div>
+			</div>
+	<!-- Footer -->
+	<div class="footer">
+	  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
+	</div>
+</body>
+</html>
