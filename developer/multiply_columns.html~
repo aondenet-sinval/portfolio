@@ -101,7 +101,7 @@
 				vulputate neque ut diam orci convallis maecenas. Pellentesque mattis ut, quis montes. Duis. Donec integer ad, 
 				facilisi vitae ut velit. Duis duis morbi habitasse senectus et primis porttitor.
 				</div>
-				<h5>A propriedade largura da coluna especifica uma largura ideal sugerida para as colunas.</h5>
+				<h5>A propriedade column-width especifica uma largura ideal sugerida para as colunas.</h5>
 				<div class="width-col">Lorem ipsum dolor sit amet, consecteteur adipiscing elit metus lacus urna a. 
 				Pede platea malesuada molestie id sit curabitur justo nibh. 
 				Nec mi sollicitudin natoque, elementum inceptos. Duis purus tellus augue habitant duis, hac quis parturient. 
@@ -111,9 +111,9 @@
 				</div>																	
 				</div>
 				</div>
-					<!-- Footer -->
-					<div class="footer">
-					  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
-					</div>
+				<!-- Footer -->
+				<div class="footer">
+				  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
+				</div>
 </body>
 </html>
