@@ -1,0 +1,14 @@
+/*Cores de fundo: */
+.back-padrao {
+  background-color: #D9E4F0;
+}
+
+.back-header {
+  background-color: #9933cc;
+}
+
+.back-footer {
+  background-color: #0D82F4;
+}
+
+/*# sourceMappingURL=stylebase.css.map */

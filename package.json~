@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Esse portfólio possui vários exemplos de scripts desenvolvidos: css, javascript, c#, pug, etc.",
+  "description": "Esse portfólio destaca meu conhecimento do Framework w3.css que com certeza é atraente pela leveza, velocidade, capacidade mobile, entre outras vantagens, que considero superiores ao Bootstrap, nesse caso.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/aondenet-sinval/portfolio/issues"
   },
-  "homepage": "https://github.com/aondenet-sinval/portfolio#readme",
-  "dependencies": {
-    "sass": "^1.43.2"
-  }
+  "homepage": "https://github.com/aondenet-sinval/portfolio#readme"
 }

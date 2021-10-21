@@ -1,3 +1,8 @@
+/*Cores de fundo: */
+.back-padrao{ background-color: #D9E4F0; }
+.back-header{ background-color: #9933cc; }
+.back-footer{ background-color: #0D82F4; }
+
 * {
   box-sizing: border-box;
 }
@@ -62,8 +67,8 @@ html {
 .header{
   background-color: #9933cc;
   color: #ffffff;
-  padding: 15px;
 }
+
 
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
@@ -102,8 +107,6 @@ html {
   .col-s-12 {width: 100%;}
 
 .header {
-  background-color: #9933cc;
-  color: #ffffff;
   padding: 15px;
   background: url(../img/aondenet_web_design_sinval_prado_ba_01_mini.jpg) no-repeat;
   background-size: 100%;
@@ -126,8 +129,6 @@ html {
   .col-f-12 {width: 100%;}
 
 .header {
-  background-color: #9933cc;
-  color: #ffffff;
   margin: 5px;
   padding: 50px;
   background: url(../img/aondenet_web_design_sinval_prado_ba_01_media.jpg) no-repeat;
@@ -150,8 +151,6 @@ html {
   .col-g-12 {width: 100%;}
 
 .header {
-  background-color: #9933cc;
-  color: #ffffff;
   padding: 60px;
   background: url(../img/aondenet_web_design_sinval_prado_ba_01_max.jpg) no-repeat;
   background-size: 100%;
@@ -174,8 +173,6 @@ html {
   .col-12 {width: 100%;}
 
 .header {
-  background-color: #9933cc;
-  color: #ffffff;
   padding: 80px;
   background: url(../img/aondenet_web_design_sinval_prado_ba_01_max.jpg) no-repeat;
   background-size: 100%;
