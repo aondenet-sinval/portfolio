@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Brincando com Grid View</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="./css/stylebase.css" rel="stylesheet" type="text/css">
+<link href="./css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -20,6 +20,7 @@
 			      <li><a href="#atracoes">Atrações</a></li>
 			      <li><a href="#culinaria">Culinária</a></li>
 			    </ul>
+			    <img src="../img/aondenet_web_design_sinval_prado_ba_01_mini.jpg" alt="Praia em Prado-BA, aondenet.com" id="myImg" width="300" height="300">
 			  </div>
 			
 			  <div class="col-g-6 col-6 col-f-8 col-s-7 col-m-12">
