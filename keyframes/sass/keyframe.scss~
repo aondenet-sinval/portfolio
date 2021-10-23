@@ -1,6 +1,6 @@
 #myImagem {
-  width: 200px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   object-position: 0% 0%;
   animation: mymove 5s infinite;
