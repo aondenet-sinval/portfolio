@@ -1,0 +1,14 @@
+/*Keyframes*/
+div .frame-one{
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymoveblue 5s infinite;
+}
+
+
+@keyframes mymoveblue {
+  from {top: 0px;}
+  to {top: 150px;}
+}

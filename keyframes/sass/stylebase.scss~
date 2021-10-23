@@ -1,0 +1,190 @@
+/*Cores de fundo: */
+.back-padrao{ background-color: #D9E4F0; }
+.back-header{ background-color: #9933cc; }
+.back-footer{ background-color: #0D82F4; }
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+ .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+.header{
+  background-color: #9933cc;
+  color: #ffffff;
+}
+
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .col-m-1 {width: 8.33%;}
+  .col-m-2 {width: 16.66%;}
+  .col-m-3 {width: 25%;}
+  .col-m-4 {width: 33.33%;}
+  .col-m-5 {width: 41.66%;}
+  .col-m-6 {width: 50%;}
+  .col-m-7 {width: 58.33%;}
+  .col-m-8 {width: 66.66%;}
+  .col-m-9 {width: 75%;}
+  .col-m-10 {width: 83.33%;}
+  .col-m-11 {width: 91.66%;}
+  .col-m-12 {width: 100%;}
+
+.header {
+  background: url(../img/aondenet_web_design_sinval_prado_ba_01_mini.jpg) no-repeat;
+  background-size: 100%;
+ }
+}
+
+@media only screen and (min-width: 501px) {
+  /* For mobiles : */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+.header {
+  padding: 15px;
+  background: url(../img/aondenet_web_design_sinval_prado_ba_01_mini.jpg) no-repeat;
+  background-size: 100%;
+ }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For tablets: */
+  .col-f-1 {width: 8.33%;}
+  .col-f-2 {width: 16.66%;}
+  .col-f-3 {width: 25%;}
+  .col-f-4 {width: 33.33%;}
+  .col-f-5 {width: 41.66%;}
+  .col-f-6 {width: 50%;}
+  .col-f-7 {width: 58.33%;}
+  .col-f-8 {width: 66.66%;}
+  .col-f-9 {width: 75%;}
+  .col-f-10 {width: 83.33%;}
+  .col-f-11 {width: 91.66%;}
+  .col-f-12 {width: 100%;}
+
+.header {
+  margin: 5px;
+  padding: 50px;
+  background: url(../img/aondenet_web_design_sinval_prado_ba_01_media.jpg) no-repeat;
+  background-size: 100%;
+}
+}
+@media only screen and (min-width: 900px) {
+  /* For desktop: */
+  .col-g-1 {width: 8.33%;}
+  .col-g-2 {width: 16.66%;}
+  .col-g-3 {width: 25%;}
+  .col-g-4 {width: 33.33%;}
+  .col-g-5 {width: 41.66%;}
+  .col-g-6 {width: 50%;}
+  .col-g-7 {width: 58.33%;}
+  .col-g-8 {width: 66.66%;}
+  .col-g-9 {width: 75%;}
+  .col-g-10 {width: 83.33%;}
+  .col-g-11 {width: 91.66%;}
+  .col-g-12 {width: 100%;}
+
+.header {
+  padding: 60px;
+  background: url(../img/aondenet_web_design_sinval_prado_ba_01_max.jpg) no-repeat;
+  background-size: 100%;
+ }
+}
+
+@media only screen and (min-width: 1100px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+.header {
+  padding: 80px;
+  background: url(../img/aondenet_web_design_sinval_prado_ba_01_max.jpg) no-repeat;
+  background-size: 100%;
+ }
+}
+
+a{  text-decoration: none;}
+
+.prado-detail{
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
