@@ -359,6 +359,6 @@ a {
   text-decoration: none;
 }
 
-ul{
+.widget-content ul li{
 	list-style: none;
 }

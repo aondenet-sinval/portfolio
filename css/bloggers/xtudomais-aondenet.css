@@ -25,9 +25,13 @@ body {
     object-position: 100% 100%;
   }
 }
-
+@font-face {
+   font-family: myFontsVictoria;
+   src: url('https://aondenet-sinval.github.io/portfolio/developer/fonts/victoria-duo/VictoriaSignature.ttf');
+}
 /* Header/logo Title */
 .header {
+  font-family: myFontsVictoria;
   text-align: center;
   background-color: #DE1919;
   color: white;
@@ -83,7 +87,8 @@ body {
 /* Main column */
 .main {
   flex: 100%;
-  background-color: white;
+  background-color: #6B4E4E;
+  color: white;
   padding: 20px;
 }
 
@@ -91,7 +96,7 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: #933939;
 }
 a{  text-decoration: none;}
 /*
