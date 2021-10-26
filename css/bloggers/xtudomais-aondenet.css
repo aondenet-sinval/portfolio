@@ -28,7 +28,6 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 60px;
   text-align: center;
   background: #F71B1B;
   color: white;
@@ -147,7 +146,7 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
   .header {
     margin: 5px;
     padding: 15px;
-    background: url('https://aondenet-sinval.github.io/portfolio/grid/img/aondenet_web_design_sinval_prado_ba_01_mini.jpg') no-repeat;
+    background: url('https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-header.jpg') no-repeat;
     background-size: 100%;
   }
 }
