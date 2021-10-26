@@ -1,0 +1,3 @@
+Arquivos para blogger estão nessa pasta o nome do arquivofaz referência ao nome do blogger.
+Exemplo:
+pradosulba.css: blogger: pradosulba.blogspot.com
