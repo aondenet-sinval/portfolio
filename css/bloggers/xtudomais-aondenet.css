@@ -29,7 +29,7 @@ body {
 /* Header/logo Title */
 .header {
   text-align: center;
-  background: #F71B1B;
+  background-color: #DE1919;
   color: white;
   height: 400px;
   margin: 5px;
@@ -42,6 +42,8 @@ body {
 #crosscol {
   display: flex;
   background-color: #DE1919;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 #crosscol ul{
   display: flex;
