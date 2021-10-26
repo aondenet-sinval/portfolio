@@ -95,6 +95,11 @@ body {
   padding: 20px;
 }
 
+#main{
+	display: flex;
+	flex-direction: row;
+}
+
 /* Footer */
 .footer {
   padding: 20px;
