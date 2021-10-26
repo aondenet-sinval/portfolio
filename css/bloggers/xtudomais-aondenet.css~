@@ -32,6 +32,7 @@ body {
   text-align: center;
   background: #E360B0;
   color: white;
+  height: 400px;
 }
 
 /* Style the top navigation bar */
