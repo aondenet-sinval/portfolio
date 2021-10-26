@@ -75,7 +75,12 @@ body {
 /* Column container */
 .row {  
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Blog{
+	display: flex;
+	flex-wrap: wrap;
 }
 
 /* Create two unequal columns that sits next to each other */
