@@ -75,7 +75,6 @@ body {
 /* Column container */
 .row {  
   display: flex;
-  flex-wrap: wrap;
 }
 
 /* Create two unequal columns that sits next to each other */
