@@ -35,7 +35,6 @@ body {
   font-size: 80px;
   text-align: center;
   background-color: #DE1919;
-  color: white;
   margin: 5px;
   padding: 15px;
   background: url('https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-header.jpg') no-repeat;

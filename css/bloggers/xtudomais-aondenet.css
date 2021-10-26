@@ -29,11 +29,14 @@ body {
    font-family: myFontsVictoria;
    src: url('https://aondenet-sinval.github.io/portfolio/developer/fonts/victoria-duo/VictoriaSignature.ttf');
 }
-/* Header/logo Title */
-.header {
+
+#Header1 {
   font-family: myFontsVictoria;
   font-size: 80px;
   text-align: center;
+}
+/* Header/logo Title */
+.header {
   background-color: #DE1919;
   margin: 5px;
   padding: 15px;
