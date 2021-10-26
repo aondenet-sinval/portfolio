@@ -80,6 +80,7 @@ body {
 
 .Blog{
 	display: flex;
+	flex-direction: flex;
 	flex-wrap: wrap;
 }
 

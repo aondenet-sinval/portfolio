@@ -78,6 +78,11 @@ body {
   flex-wrap: wrap;
 }
 
+.Blog{
+	display: flex;
+	flex-wrap: wrap;
+}
+
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .sidebar {
