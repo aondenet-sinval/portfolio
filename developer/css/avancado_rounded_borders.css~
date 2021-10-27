@@ -71,12 +71,12 @@ Definição de bordas:
 }
 #educationalimg {
   border: 40px solid transparent;
-  padding: 0px;
+  padding: 15px;
   border-image: url(../../img/path10.png) 30 round;
 }
 #stic_educational_img {
   border: 30px solid transparent;
   padding: 15px;
-  border-image: url(../../img/path10.png) 30 stretch;
+  border-image: url(../../img/path10.png) 20 stretch;
 }
 
