@@ -13,15 +13,10 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 */
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   /* Style the top navigation bar */
   #crosscol {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #DE1919;
     margin-left: 2px;
     margin-right: 2px;
@@ -29,12 +24,7 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
     padding: 10px;
     border-image: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-hamburger-mini-border-mais.png") 30 stretch;
   }
-  #crosscol ul li {
-    position: relative;
-    float: left;
-  }
 
-  /* Column container */
   .col-m-1 {
     width: 8.33%;
   }
@@ -85,24 +75,6 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 }
 @media only screen and (min-width: 501px) {
   /* For mobiles : */
-  /* Style the top navigation bar */
-  #crosscol {
-    display: flex;
-    flex-direction: column;
-    background-color: #DE1919;
-    margin-left: 2px;
-    margin-right: 2px;
-    border: 30px solid transparent;
-    padding: 10px;
-    border-image: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-hamburger-mini-border-mais.png") 30 stretch;
-  }
-
-  /* Column container */
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .col-s-1 {
     width: 8.33%;
   }
@@ -152,10 +124,6 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
   }
 }
 @media only screen and (min-width: 768px) {
-  #crosscol ul {
-    display: flex;
-  }
-
   /* For tablets: */
   .col-f-1 {
     width: 8.33%;
@@ -206,10 +174,6 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
   }
 }
 @media only screen and (min-width: 900px) {
-  #crosscol ul {
-    display: flex;
-  }
-
   /* For desktop: */
   .col-g-1 {
     width: 8.33%;
@@ -260,10 +224,6 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
   }
 }
 @media only screen and (min-width: 1100px) {
-  #crosscol ul {
-    display: flex;
-  }
-
   /* For desktop: */
   .col-1 {
     width: 8.33%;
@@ -344,6 +304,7 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 }
 
 #crosscol ul {
+  display: flex;
   background-color: #DE1919;
   text-decoration: none;
   list-style: none;
@@ -363,22 +324,25 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
   color: black;
 }
 
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .sidebar {
-  flex: 30%;
   background-color: #DF3535;
   padding: 20px;
-  margin: 3px;
+  border-top-right-radius: 40px;
 }
 
 /* Main column */
 .main-left {
-  flex: 70%;
   background-color: #DF3535;
   color: white;
   padding: 20px;
-  margin: 3px;
 }
 
 /* Footer */
