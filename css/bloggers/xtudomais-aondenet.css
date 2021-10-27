@@ -88,20 +88,21 @@ body {
 }
 
 /* Main column */
-.main {
-  flex: 100%;
+.main-left {
+  flex: 50%;
   background-color: #6B4E4E;
   color: white;
   padding: 20px;
 }
 
-#main{
-	display: flex;
-	flex-direction: row;
+.main-right {
+  flex: 50%;
+  background-color: #6B4E4E;
+  color: white;
+  padding: 20px;
 }
-.wrap{
-	flex-wrap: wrap;
-}
+
+
 
 /* Footer */
 .footer {
