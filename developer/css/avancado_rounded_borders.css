@@ -70,7 +70,7 @@ Definição de bordas:
   margin-left: 10px;
 }
 #educationalimg {
-  border: 30px solid transparent;
+  border: 40px solid transparent;
   padding: 15px;
   border-image: url(../../img/path10.png) 30 round;
 }
