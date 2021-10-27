@@ -1,3 +1,8 @@
 Arquivos para blogger estão nessa pasta o nome do arquivofaz referência ao nome do blogger.
 Exemplo:
 pradosulba.css: blogger: pradosulba.blogspot.com
+Organização: os arquivo devem acompanhar o blogger que acompanham.
+Exemplo: xtudomais-aondenet.scss. Arquivos do include acompanham o prefixo do arquivo principal => xtudomais-screen.scss
+Caminho do sass dos bloggers: 
+/home/sr/git/blogger/sass/xtudomais-screen.scss
+/home/sr/git/blogger/sass/xtudomais-aondenet.scss
