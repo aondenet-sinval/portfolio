@@ -13,10 +13,16 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 */
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
+  /* Column container */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   /* Style the top navigation bar */
   #crosscol {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #DE1919;
     margin-left: 2px;
     margin-right: 2px;
@@ -75,6 +81,12 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 }
 @media only screen and (min-width: 501px) {
   /* For mobiles : */
+  /* Column container */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .col-s-1 {
     width: 8.33%;
   }
@@ -322,12 +334,6 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 #crosscol a:hover {
   background-color: #EFC2DE;
   color: black;
-}
-
-/* Column container */
-.row {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 /* Create two unequal columns that sits next to each other */
