@@ -333,6 +333,7 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .sidebar {
+  flex: 30%;
   background-color: #DF3535;
   padding: 20px;
   border-top-right-radius: 40px;
@@ -340,6 +341,7 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 
 /* Main column */
 .main-left {
+  flex: 70%;
   background-color: #DF3535;
   color: white;
   padding: 20px;
