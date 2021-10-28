@@ -83,6 +83,11 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
     flex-direction: column;
   }
 
+  #crosscol a {
+    display: flex;
+    flex-direction: column;
+  }
+
   /*Colunas*/
   .col-s-1 {
     width: 8.33%;
