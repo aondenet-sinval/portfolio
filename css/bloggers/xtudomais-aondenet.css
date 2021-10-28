@@ -15,13 +15,11 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
   /* For mobile phones: */
   /*Aplicando estilos no crosscol*/
   .widget-content {
-    max-width: 300px;
+    max-width: 360px;
   }
   .widget-content ul li {
     list-style: none;
     width: 180px;
-    display: flex;
-    flex-direction: column;
   }
 
   #crosscol a {
