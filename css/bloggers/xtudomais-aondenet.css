@@ -13,21 +13,28 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 */
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
-  /*Aplicando estilos no crosscol*/
-  .widget-content {
-    max-width: 360px;
-  }
-  .widget-content ul li {
-    list-style: none;
-    width: 180px;
+  /* Style the top navigation bar */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
 
-  #crosscol a {
-    display: flex;
-    flex-direction: column;
+  li a {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
   }
 
-  /*Colunas*/
+  #crosscol {
+    background-color: #DE1919;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 30px solid transparent;
+    padding: 10px;
+    border-image: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-hamburger-mini-border-mais.png") 30 stretch;
+  }
+
   .col-m-1 {
     width: 8.33%;
   }
@@ -78,23 +85,28 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 }
 @media only screen and (min-width: 501px) {
   /* For mobiles : */
-  /*Aplicando estilos no crosscol*/
-  .widget-content {
-    max-width: 300px;
-  }
-  .widget-content ul li {
-    list-style: none;
-    width: 180px;
-    display: flex;
-    flex-direction: column;
+  /* Style the top navigation bar */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
 
-  #crosscol a {
-    display: flex;
-    flex-direction: column;
+  li a {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
   }
 
-  /*Colunas*/
+  #crosscol {
+    background-color: #DE1919;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 30px solid transparent;
+    padding: 10px;
+    border-image: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-hamburger-mini-border-mais.png") 30 stretch;
+  }
+
   .col-s-1 {
     width: 8.33%;
   }
@@ -145,6 +157,40 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 }
 @media only screen and (min-width: 768px) {
   /* For tablets: */
+  /*crosscol*/
+  /* Style the top navigation bar */
+  #crosscol {
+    display: flex;
+    background-color: #DE1919;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 30px solid transparent;
+    padding: 10px;
+    border-image: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-hamburger-mini-border-mais.png") 30 stretch;
+  }
+
+  #crosscol ul {
+    display: flex;
+    background-color: #DE1919;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  /* Style the navigation bar links */
+  #crosscol a {
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  /* Change color on hover */
+  #crosscol a:hover {
+    background-color: #EFC2DE;
+    color: black;
+  }
+
+  /*crosscol*/
   .col-f-1 {
     width: 8.33%;
   }
@@ -195,6 +241,40 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 }
 @media only screen and (min-width: 900px) {
   /* For desktop: */
+  /*crosscol*/
+  /* Style the top navigation bar */
+  #crosscol {
+    display: flex;
+    background-color: #DE1919;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 30px solid transparent;
+    padding: 10px;
+    border-image: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-hamburger-mini-border-mais.png") 30 stretch;
+  }
+
+  #crosscol ul {
+    display: flex;
+    background-color: #DE1919;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  /* Style the navigation bar links */
+  #crosscol a {
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  /* Change color on hover */
+  #crosscol a:hover {
+    background-color: #EFC2DE;
+    color: black;
+  }
+
+  /*crosscol*/
   .col-g-1 {
     width: 8.33%;
   }
@@ -245,6 +325,40 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 }
 @media only screen and (min-width: 1100px) {
   /* For desktop: */
+  /*crosscol*/
+  /* Style the top navigation bar */
+  #crosscol {
+    display: flex;
+    background-color: #DE1919;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 30px solid transparent;
+    padding: 10px;
+    border-image: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-hamburger-mini-border-mais.png") 30 stretch;
+  }
+
+  #crosscol ul {
+    display: flex;
+    background-color: #DE1919;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  /* Style the navigation bar links */
+  #crosscol a {
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  /* Change color on hover */
+  #crosscol a:hover {
+    background-color: #EFC2DE;
+    color: black;
+  }
+
+  /*crosscol*/
   .col-1 {
     width: 8.33%;
   }
@@ -312,41 +426,6 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
   background-size: 100%;
 }
 
-/*crosscol start*/
-/* Style the top navigation bar */
-#crosscol {
-  display: flex;
-  background-color: #DE1919;
-  margin-left: 2px;
-  margin-right: 2px;
-  border: 30px solid transparent;
-  padding: 10px;
-  border-image: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-hamburger-mini-border-mais.png") 30 stretch;
-}
-
-#crosscol ul {
-  display: flex;
-  background-color: #DE1919;
-  text-decoration: none;
-  list-style: none;
-}
-
-/* Style the navigation bar links */
-#crosscol a {
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 20px;
-}
-
-/* Change color on hover */
-#crosscol a:hover {
-  background-color: #EFC2DE;
-  color: black;
-}
-
-/*crosscol end*/
 /* Column container */
 .row {
   display: flex;
@@ -354,7 +433,7 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 }
 
 /* Create two unequal columns that sits next to each other */
-/* Sidebar/right column */
+/* Sidebar/left column */
 .sidebar {
   flex: 30%;
   background-color: #DF3535;
@@ -378,6 +457,10 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 
 a {
   text-decoration: none;
+}
+
+.widget-content ul li {
+  list-style: none;
 }
 
 /*# sourceMappingURL=xtudomais-aondenet.css.map */
