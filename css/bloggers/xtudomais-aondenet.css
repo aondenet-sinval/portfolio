@@ -280,7 +280,7 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
   background-size: 100%;
 }
 
-/*crosscol*/
+/*crosscol start*/
 /* Style the top navigation bar */
 #crosscol {
   display: flex;
@@ -313,7 +313,7 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
   color: black;
 }
 
-/*crosscol*/
+/*crosscol end*/
 /* Column container */
 .row {
   display: flex;
@@ -321,7 +321,7 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 }
 
 /* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
+/* Sidebar/right column */
 .sidebar {
   flex: 30%;
   background-color: #DF3535;
@@ -349,6 +349,7 @@ a {
 
 .widget-content ul li {
   list-style: none;
+  width: 180px;
 }
 
 /*# sourceMappingURL=xtudomais-aondenet.css.map */
