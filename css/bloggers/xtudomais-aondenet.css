@@ -17,6 +17,21 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 */
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
+  #Header1 {
+    font-family: optima, helvetica;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* Header/logo Title */
+  .header {
+    background-color: #DE1919;
+    margin: 5px;
+    padding: 5px;
+    background: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-header-mini.jpg") no-repeat;
+    background-size: 100%;
+  }
+
   .col-m-1 {
     width: 8.33%;
   }
@@ -67,6 +82,21 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 }
 @media only screen and (min-width: 501px) {
   /* For mobiles : */
+  #Header1 {
+    font-family: optima, helvetica;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* Header/logo Title */
+  .header {
+    background-color: #DE1919;
+    margin: 5px;
+    padding: 5px;
+    background: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-header-mini.jpg") no-repeat;
+    background-size: 100%;
+  }
+
   .col-s-1 {
     width: 8.33%;
   }
@@ -117,6 +147,21 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 }
 @media only screen and (min-width: 768px) {
   /* For tablets: */
+  #Header1 {
+    font-family: optima, helvetica;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* Header/logo Title */
+  .header {
+    background-color: #DE1919;
+    margin: 5px;
+    padding: 5px;
+    background: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-header-mini.jpg") no-repeat;
+    background-size: 100%;
+  }
+
   .col-f-1 {
     width: 8.33%;
   }
@@ -167,6 +212,21 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 }
 @media only screen and (min-width: 900px) {
   /* For desktop: */
+  #Header1 {
+    font-family: optima, helvetica;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* Header/logo Title */
+  .header {
+    background-color: #DE1919;
+    margin: 5px;
+    padding: 5px;
+    background: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-header.jpg") no-repeat;
+    background-size: 100%;
+  }
+
   /*crosscol*/
   .col-g-1 {
     width: 8.33%;
@@ -218,6 +278,21 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 }
 @media only screen and (min-width: 1100px) {
   /* For desktop: */
+  #Header1 {
+    font-family: optima, helvetica;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* Header/logo Title */
+  .header {
+    background-color: #DE1919;
+    margin: 5px;
+    padding: 5px;
+    background: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-header.jpg") no-repeat;
+    background-size: 100%;
+  }
+
   .col-1 {
     width: 8.33%;
   }
@@ -266,21 +341,6 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
     width: 100%;
   }
 }
-#Header1 {
-  font-family: optima, helvetica;
-  font-size: 20px;
-  text-align: center;
-}
-
-/* Header/logo Title */
-.header {
-  background-color: #DE1919;
-  margin: 5px;
-  padding: 5px;
-  background: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-header.jpg") no-repeat;
-  background-size: 100%;
-}
-
 /*crosscol sem dropdown*/
 /*crosscol start*/
 /* Style the top navigation bar */
@@ -326,6 +386,7 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 }
 
 /* Create two unequal columns that sits next to each other */
+/*sidebar right*/
 /* Sidebar/right column */
 .sidebar {
   flex: 30%;
@@ -342,6 +403,9 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
   background-color: #DF3535;
   color: white;
   padding: 20px;
+}
+.main-left a {
+  text-decoration: none;
 }
 
 /* Footer */
