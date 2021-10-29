@@ -225,6 +225,8 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
     padding: 5px;
     background: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-header.jpg") no-repeat;
     background-size: 100%;
+    width: 100%;
+    min-height: 350px;
   }
 
   /*crosscol*/
@@ -291,6 +293,8 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
     padding: 5px;
     background: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-header.jpg") no-repeat;
     background-size: 100%;
+    width: 100%;
+    min-height: 350px;
   }
 
   .col-1 {
