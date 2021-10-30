@@ -252,6 +252,14 @@ col-g min-width 992px; para dispositivos maior que 992px.
   color: black;
 }
 
+#sectionCrosscolPhone {
+  flex: 85%;
+}
+
+#sectionCrosscolButton {
+  flex: 15%;
+}
+
 /*crosscol end mobile*/
 /*crosscol Tablets start*/
 /* Style the top navigation bar */
