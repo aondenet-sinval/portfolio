@@ -219,8 +219,8 @@ col-g min-width 992px; para dispositivos maior que 992px.
 /*crosscol sem dropdown*/
 /*Definindo menu de navegação para três dispositivos diferentes*/
 /*crosscol mobile start*/
-/* Style the top navigation bar */
-#crosscolPhone {
+/* Style the crosscol navigation bar */
+#sectionCrosscolPhone {
   background-color: #DE1919;
   margin-left: 2px;
   margin-right: 2px;
@@ -230,24 +230,24 @@ col-g min-width 992px; para dispositivos maior que 992px.
   /* Style the navigation bar links */
   /* Change color on hover */
 }
-#crosscolPhone ul {
+#sectionCrosscolPhone ul {
   display: flex;
   background-color: #DE1919;
   text-decoration: none;
   list-style: none;
   flex-wrap: wrap;
 }
-#crosscolPhone ul li {
+#sectionCrosscolPhone ul li {
   width: 140px;
 }
-#crosscolPhone a {
+#sectionCrosscolPhone a {
   color: white;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   border-radius: 20px;
 }
-#crosscolPhone a:hover {
+#sectionCrosscolPhone a:hover {
   background-color: #EFC2DE;
   color: black;
 }
