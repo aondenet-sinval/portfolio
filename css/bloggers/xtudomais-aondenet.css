@@ -94,8 +94,10 @@ col-g min-width 992px; para dispositivos maior que 992px.
     background-color: #DE1919;
     margin: 5px;
     padding: 5px;
-    background: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-header-mini.jpg") no-repeat;
+    background: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-header.jpg") no-repeat;
     background-size: 100%;
+    width: 100%;
+    min-height: 350px;
   }
 
   .col-m-1 {
