@@ -221,6 +221,7 @@ col-g min-width 992px; para dispositivos maior que 992px.
 /*crosscol mobile start*/
 /* Style the crosscol navigation bar */
 #sectionCrosscolPhone {
+  flex: 85%;
   background-color: #DE1919;
   margin-left: 2px;
   margin-right: 2px;
@@ -250,10 +251,6 @@ col-g min-width 992px; para dispositivos maior que 992px.
 #sectionCrosscolPhone a:hover {
   background-color: #EFC2DE;
   color: black;
-}
-
-#sectionCrosscolPhone {
-  flex: 85%;
 }
 
 #sectionCrosscolButton {
