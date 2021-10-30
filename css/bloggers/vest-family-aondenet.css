@@ -69,14 +69,14 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .sidebar {
-  flex: 100%;
+  flex: 30%;
   background-color: #DCC7C7;
   padding: 20px;
 }
 
 /* Main column */
 .main {
-  flex: 100%;
+  flex: 70%;
   background-color: white;
   padding: 20px;
 }

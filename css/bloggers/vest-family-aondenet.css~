@@ -30,18 +30,18 @@ body {
 .header {
   padding: 60px;
   text-align: center;
-  background: #bfbfbf;
+  background: #E360B0;
   color: white;
 }
 
 /* Style the top navigation bar */
 #crosscol {
   display: flex;
-  background-color: #333;
+  background-color: #A52A2A;
 }
 #crosscol ul{
   display: flex;
-  background-color: #333;
+  background-color: #A52A2A;
   text-decoration: none;
   list-style: none;
 }
@@ -69,14 +69,14 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .sidebar {
-  flex: 30%;
-  background-color: #f1f1f1;
+  flex: 100%;
+  background-color: #DCC7C7;
   padding: 20px;
 }
 
 /* Main column */
 .main {
-  flex: 70%;
+  flex: 100%;
   background-color: white;
   padding: 20px;
 }
@@ -202,9 +202,9 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
   }
 
   .header {
+  	height: 350px;
     margin: 5px;
     padding: 15px;
-    background: url('https://aondenet-sinval.github.io/portfolio/grid/img/aondenet_web_design_sinval_prado_ba_01_mini.jpg') no-repeat;
     background-size: 100%;
   }
 }
@@ -261,7 +261,6 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
   .header {
     margin: 5px;
     padding: 50px;
-    background: url('https://aondenet-sinval.github.io/portfolio/grid/img/aondenet_web_design_sinval_prado_ba_01_media.jpg') no-repeat;
     background-size: 100%;
   }
 }
@@ -317,7 +316,6 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 
   .header {
     padding: 60px;
-    background: url('https://aondenet-sinval.github.io/portfolio/grid/img/aondenet_web_design_sinval_prado_ba_01_max.jpg') no-repeat;
     background-size: 100%;
   }
 }
@@ -373,7 +371,6 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
 
   .header {
     padding: 80px;
-    background: url('https://aondenet-sinval.github.io/portfolio/grid/img/aondenet_web_design_sinval_prado_ba_01_max.jpg') no-repeat;
     background-size: 100%;
   }
 }
