@@ -331,6 +331,7 @@ col-g min-width 992px; para dispositivos maior que 992px.
   background-color: #A78E8E;
   color: white;
   padding: 20px;
+  min-width: 250px;
 }
 .sidebar ul li {
   list-style: none;
@@ -348,11 +349,18 @@ col-g min-width 992px; para dispositivos maior que 992px.
 }
 
 /* Footer columns */
+#columns-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .column-footer-left {
   flex: 50%;
   background-color: #A78E8E;
   color: white;
   padding: 20px;
+  min-width: 350px;
 }
 .column-footer-left a {
   text-decoration: none;
@@ -363,6 +371,7 @@ col-g min-width 992px; para dispositivos maior que 992px.
   background-color: #A78E8E;
   color: white;
   padding: 20px;
+  min-width: 350px;
 }
 .column-footer-right a {
   text-decoration: none;
