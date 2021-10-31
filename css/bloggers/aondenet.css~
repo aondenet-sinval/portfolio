@@ -26,7 +26,7 @@ col-g min-width 992px; para dispositivos maior que 992px.
 
   /* Header/logo Title */
   .header {
-    background-color: #D8C493;
+    background-color: #DE1919;
     margin: 5px;
     padding: 5px;
     background-size: 100%;
@@ -90,12 +90,12 @@ col-g min-width 992px; para dispositivos maior que 992px.
 
   /* Header/logo Title */
   .header {
-    background-color: #D8C493;
+    background-color: #DE1919;
     margin: 5px;
     padding: 5px;
     background-size: 100%;
     width: 100%;
-    min-height: 250px;
+    min-height: 350px;
   }
 
   .col-m-1 {
@@ -156,12 +156,12 @@ col-g min-width 992px; para dispositivos maior que 992px.
 
   /* Header/logo Title */
   .header {
-    background-color: #D8C493;
+    background-color: #DE1919;
     margin: 5px;
     padding: 5px;
     background-size: 100%;
     width: 100%;
-    min-height: 250px;
+    min-height: 350px;
   }
 
   /*crosscol*/
@@ -328,8 +328,7 @@ col-g min-width 992px; para dispositivos maior que 992px.
 /* Sidebar/right column */
 .sidebar {
   flex: 30%;
-  background-color: #A78E8E;
-  color: white;
+  background-color: #DF3535;
   padding: 20px;
 }
 .sidebar ul li {
@@ -339,32 +338,11 @@ col-g min-width 992px; para dispositivos maior que 992px.
 /* Main column */
 .main-left {
   flex: 70%;
-  background-color: #A78E8E;
+  background-color: #DF3535;
   color: white;
   padding: 20px;
 }
 .main-left a {
-  text-decoration: none;
-}
-
-/* Footer columns */
-.column-footer-left {
-  flex: 50%;
-  background-color: #A78E8E;
-  color: white;
-  padding: 20px;
-}
-.column-footer-left a {
-  text-decoration: none;
-}
-
-.column-footer-right {
-  flex: 50%;
-  background-color: #A78E8E;
-  color: white;
-  padding: 20px;
-}
-.column-footer-right a {
   text-decoration: none;
 }
 
