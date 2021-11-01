@@ -236,7 +236,7 @@ col-g min-width 992px; para dispositivos maior que 992px.
   background-color: #A78E8E;
   text-decoration: none;
   list-style: none;
-  flex-wrap: wrap;
+  flex-direction: wrap;
 }
 #crosscolPhone ul li {
   width: 140px;
@@ -389,4 +389,4 @@ col-g min-width 992px; para dispositivos maior que 992px.
   background: #BFBFBF;
 }
 
-/*# sourceMappingURL=aondenet.css.map */
+/*# sourceMappingURL=aondenet-modelar.css.map */
