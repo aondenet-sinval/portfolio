@@ -2,7 +2,7 @@
 /* Style the body */
 body {
   font-family: Arial;
-  margin: 0;
+  margin: 5px;
 }
 
 /*Keyframes*/
@@ -34,6 +34,10 @@ body {
   color: white; 
 }
 
+#crosscol-flex{
+		display: flex;
+		flex-wrap: wrap;
+}
 /* Style navigation bar phone*/
 #crosscolPhone {
   display: flex;
@@ -52,6 +56,7 @@ body {
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
+  min-width: 160px;
 }
 
 /* Change color on hover */

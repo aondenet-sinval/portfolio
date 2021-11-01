@@ -34,12 +34,16 @@ body {
   color: white; 
 }
 
-/* Style the top navigation bar */
-#crosscol {
+#crosscol-flex{
+		display: flex;
+		flex-wrap: wrap;
+}
+/* Style navigation bar phone*/
+#crosscolPhone {
   display: flex;
   background-color: #333;
 }
-#crosscol ul{
+#crosscolPhone ul{
   display: flex;
   background-color: #333;
   text-decoration: none;
@@ -47,7 +51,35 @@ body {
 }
 
 /* Style the navigation bar links */
-#crosscol a {
+#crosscolPhone a {
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  min-width: 160px;
+}
+
+/* Change color on hover */
+#crosscolPhone a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*Style navigation bar Tablet*/
+
+#crosscolTablet {
+  display: flex;
+  background-color: #333;
+}
+#crosscolTablet ul{
+  display: flex;
+  background-color: #333;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Style the navigation bar links */
+#crosscolTablet a {
   color: white;
   padding: 10px 20px;
   text-align: center;
@@ -55,7 +87,33 @@ body {
 }
 
 /* Change color on hover */
-#crosscol a:hover {
+#crosscolTablet a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style  navigation bar Desktop*/
+#crosscolDesktop {
+  display: flex;
+  background-color: #333;
+}
+#crosscolDesktop ul{
+  display: flex;
+  background-color: #333;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Style the navigation bar links */
+#crosscolDesktop a {
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+#crosscolDesktop a:hover {
   background-color: #ddd;
   color: black;
 }
