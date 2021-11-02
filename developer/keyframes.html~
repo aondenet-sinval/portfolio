@@ -47,9 +47,9 @@
 			<p>Praticando conceitos desenvolvidos a partir do curso da Digital Innovation One.<br>
 			E pesquisas nos sites da w3schools, CSS-TRICKS, ORIGAMID e Mozilla MDN.</p>
 			<div class="cont-imagem">
-			<img class="phone-web" src="../../Imagens/phone-web-prado-aondenet.png" alt="Dispositivo móvel telefone">
-			<img class="phone-web" src="../../Imagens/ipad-web-prado-aondenet.png" alt="Dispositivo móvel Ipad">
-			<img class="phone-web" src="../../Imagens/desktop-web-prado-aondenet.png" alt="Dispositivo de mesa Desktop">
+			<img class="phone-web" src="https://aondenet-sinval.github.io/portfolio/Imagens/phone-web-prado-aondenet.png" alt="Dispositivo móvel telefone">
+			<img class="phone-web" src="https://aondenet-sinval.github.io/portfolio/Imagens/ipad-web-prado-aondenet.png" alt="Dispositivo móvel Ipad">
+			<img class="phone-web" src="https://aondenet-sinval.github.io/portfolio/Imagens/desktop-web-prado-aondenet.png" alt="Dispositivo de mesa Desktop">
 			<script>
 			w3.slideshow(".phone-web", 6000);
 			</script>
