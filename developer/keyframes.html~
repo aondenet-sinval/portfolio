@@ -5,8 +5,12 @@
 <title>Praticando conceitos de CSS Flexbox</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="./css/keyframes.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="../../js/w3.js" ></script>
-
+ <link href='https://www.w3schools.com/w3css/4/w3.css' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'> 
+  <script src="https://kit.fontawesome.com/8e7ee5eff9.js" crossorigin="anonymous"></script> 
+<!--<script type="text/javascript"  src="https://www.w3schools.com/lib/w3.js"></script>-->
+<script type="text/javascript"  src="../../js/w3.js"></script>
 </head>
 <body>
 	<!-- Header -->
@@ -15,7 +19,8 @@
 	  <p>Development <b>flexible</b> layout with flexbox.</p>
 	</div>
 			<!-- Navigation Bar -->
-			<div class="navbar">
+			<div class="row">
+			<div class="navbar w3-bar w3-bar-block w3-hide w3-hide-large col-m-2" id="mobile-phone">
 					<a href="index.html">HOME</a>
 					<a href="avancado_colors.html">COLORS</a>
 					<a href="avancado_colors.html">KEYWORDS</a>
@@ -24,7 +29,20 @@
 					<a href="webfontes.html">WEB FONTS</a>
 					<a href="#">TRANSITIONS</a>
 					<a href="multiply_columns.html">MULTIPLY COLUMNS</a>
-					<a href="#">USER INTERFACE</a>
+					<a href="#">USER INTERFACE</a>		  		   					
+			</div>
+			<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large col-m-10" onclick="myFunction()"><i class="fas fa-bars"></i></a>
+			</div>
+			<div class="navbar w3-bar-block w3-hide-small" id="mobile-desktop">
+					<a href="index.html">HOME</a>
+					<a href="avancado_colors.html">COLORS</a>
+					<a href="avancado_colors.html">KEYWORDS</a>
+					<a href="avancado_gradient.html">GRADIENTS</a>
+					<a href="text_efects.html">TEXT EFECTS</a>
+					<a href="webfontes.html">WEB FONTS</a>
+					<a href="#">TRANSITIONS</a>
+					<a href="multiply_columns.html">MULTIPLY COLUMNS</a>
+					<a href="#">USER INTERFACE</a>				
 			</div>
 			<div class="row">
 					<div class="side">						
@@ -47,9 +65,15 @@
 			<p>Praticando conceitos desenvolvidos a partir do curso da Digital Innovation One.<br>
 			E pesquisas nos sites da w3schools, CSS-TRICKS, ORIGAMID e Mozilla MDN.</p>
 			<div class="cont-imagem">
+			<img class="phone-web" src="../../Imagens/phone-web-prado-aondenet.png" alt="Dispositivo móvel telefone">
+			<img class="phone-web" src="../../Imagens/ipad-web-prado-aondenet.png" alt="Dispositivo móvel Ipad">
+			<img class="phone-web" src="../../Imagens/desktop-web-prado-aondenet.png" alt="Dispositivo de mesa Desktop">
+<!-- Usando imagens externas aqui:		
 			<img class="phone-web" src="https://aondenet-sinval.github.io/portfolio/Imagens/phone-web-prado-aondenet.png" alt="Dispositivo móvel telefone">
 			<img class="phone-web" src="https://aondenet-sinval.github.io/portfolio/Imagens/ipad-web-prado-aondenet.png" alt="Dispositivo móvel Ipad">
 			<img class="phone-web" src="https://aondenet-sinval.github.io/portfolio/Imagens/desktop-web-prado-aondenet.png" alt="Dispositivo de mesa Desktop">
+
+	-->
 			<script>
 			w3.slideshow(".phone-web", 6000);
 			</script>
@@ -60,5 +84,15 @@
 	<div class="footer">
 	  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
 	</div>
+			<script>
+		function myFunction() {
+		  var x = document.getElementById("mobile-phone");
+		  if (x.className.indexOf("w3-show") == -1) {
+		    x.className += " w3-show";
+		  } else { 
+		    x.className = x.className.replace(" w3-show", "");
+		  }
+		}
+		</script>
 </body>
 </html>
