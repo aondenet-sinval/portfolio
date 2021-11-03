@@ -20,7 +20,7 @@
 	</div>
 			<!-- Navigation Bar -->
 			<div class="row">
-			<div class="navbar w3-bar w3-bar-block w3-hide w3-hide-large col-m-2" id="mobile-phone">
+			<div class="navbar w3-bar w3-bar-block w3-hide w3-hide-large" id="mobile-phone">
 					<a href="index.html">HOME</a>
 					<a href="avancado_colors.html">COLORS</a>
 					<a href="avancado_colors.html">KEYWORDS</a>
@@ -31,7 +31,7 @@
 					<a href="multiply_columns.html">MULTIPLY COLUMNS</a>
 					<a href="#">USER INTERFACE</a>		  		   					
 			</div>
-			<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large col-m-10" onclick="myFunction()"><i class="fas fa-bars"></i></a>
+			<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large" onclick="myFunction()"><i class="fas fa-bars"></i></a>
 			</div>
 			<div class="navbar w3-bar-block w3-hide-small" id="mobile-desktop">
 					<a href="index.html">HOME</a>
