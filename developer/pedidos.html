@@ -20,10 +20,11 @@ let quantidade = ". Quantidade:";
  let url = "https://wa.me/73999005211/";
   let end_url = `${url}?text=${nome_cli} ${nome_cliente}${endereco_cli} ${endereco_cliente}${codigo} ${numberCodigo}${quantidade} ${numberQuantidade}`;
   const encoded = encodeURI(end_url );
-if (numberCodigo > 0) {
+if (numberCodigo > 100 & numberCodigo < 120) {
   window.open(encoded);	
 }else {
-	alert("Por favor preencha o formulário!")
+const avisoUnico = document.querySelector("#avisoUn");
+avisoUnico.innerHTML = "<h4>Hum! Você se esqueceu de preencher o formulário. Preencha seu pedido e clique novamente em Pedir Agora. O código/tipo de lanche deve ser um número válido.</h4>";
 }
 }
 
@@ -36,10 +37,11 @@ let descricao = ". Descrição:";
   let url = "https://wa.me/73999005211/";
   let end_url = `${url}?text=${nome_cli} ${nome_cliente}${endereco_cli} ${endereco_cliente}${descricao} ${descritivo}`;
   const encoded = encodeURI(end_url );
-if (numberCodigoVar > 0) {
+if (descritivo > 0) {
   window.open(encoded);	
 }else {
-	alert("Por favor preencha o formulário!")
+const avisoVar = document.querySelector("#avisoVar");
+avisoVar.innerHTML = "<h4>Hum! Você se esqueceu de preencher o formulário. Preencha seu pedido e clique novamente em Pedir Agora </h4>";
 }
 }
 
@@ -100,29 +102,32 @@ if (numberCodigoVar > 0) {
 				<tr><td>Pizza Grande</td><td>111</td><td>R$0,00</td></tr>
 		
 			</table>
-<h1 style="width: 100%;background-color: red;color: white;">Gerar pedido único whatsapp</h1>
-<form style="border-radius: 5px;background-color:red;padding: 20px;" name="pedir_lanche">
-<label style="width: 300px;background-color: red;color: white;"for="nome_cli">Nome: </label><br>
-<input style="width: 300px;background-color: red;color: white;" type="text" name="number" id="nome_cli"> <br>
-<label style="width: 300px;background-color: red;color: white;"for="endereco_cli">Endereço: </label><br>
-<input style="width: 300px;background-color: red;color: white;" type="text" name="number" id="endereco_cli"> <br>
-<label style="width: 300px;background-color: red;color: white;"style="width: 300px;background-color: red;color: white;" for="numberCodigo">Código/Tipo do Lanche: </label><br>
-<input style="width: 300px;background-color: red;color: white;" type="number" name="number" id="numberCodigo"> <br>
-<label style="width: 300px;background-color: red;color: white;"for="numberQuantidade">Quantidade: </label><br>
-<input style="width: 300px;background-color: red;color: white;" type="number" name="number" id="numberQuantidade" required="true"> <br>
-<button style="width: 300px;background-color: red;color: white;" type="button" onclick="gerarPedidosUnicos()">Pedir Agora</button>
+<h1 style="width: 100%;background-color: #31101c;color: white;">Gerar pedido único whatsapp</h1>
+<form style="background-color: #31101c;border:50px solid transparent; padding: 10px;border-image: url(https://aondenet-sinval.github.io/portfolio/Imagens/sanduichecomida.png) 30 stretch;" name="pedir_lanche">
+<label style="max-width: 400px;background-color: #31101c;color: white;"for="nome_cli">Nome: </label><br>
+<input style="max-width: 400px;background-color: #31101c;color: white;" type="text" name="number" id="nome_cli"> <br>
+<label style="max-width: 400px;background-color: #31101c;color: white;"for="endereco_cli">Endereço: </label><br>
+<input style="max-width: 400px;background-color: #31101c;color: white;" type="text" name="number" id="endereco_cli"> <br>
+<label style="max-width: 400px;background-color: #31101c;color: white;"style="max-width: 400px;background-color: #31101c;color: white;" for="numberCodigo">Código/Tipo do Lanche: </label><br>
+<input style="max-width: 400px;background-color: #31101c;color: white;" type="number" name="number" id="numberCodigo"> <br>
+<label style="max-width: 400px;background-color: #31101c;color: white;"for="numberQuantidade">Quantidade: </label><br>
+<input style="max-width: 400px;background-color: #31101c;color: white;" type="number" name="number" id="numberQuantidade">
+<p style="color: white;" name="querySelectorUn" id="avisoUn"></p>
+<button style="max-width: 400px;background-color: #31101c;color: white;" type="button" onclick="gerarPedidosUnicos()">Pedir Agora</button>
 </form>
-<h1 style=" 100%;background-color: red;color: white;">Gerar vários pedidos pelo whatsapp</h1>
-<form style="border-radius: 5px;background-color: red;padding: 20px;" name="pedir_lanche_var">
-<label style="width: 300px;background-color: red;color: white;"for="nome_cli">Nome: </label><br>
-<input style="width: 300px;background-color: red;color: white;" type="text" name="number" id="nome_cli"> <br>
-<label style="width: 300px;background-color: red;color: white;"for="endereco_cli">Endereço: </label><br>
-<input style="width: 300px;background-color: red;color: white;" type="text" name="number" id="endereco_cli"> <br>
-<label style="width: 300px;background-color: red;color: white;"for="descritivo">Descreva seu pedido abaixo na ordem: código - quantidade </label><br>
-<label style="width: 300px;background-color: red;color: white;"for="exemplo">Exemplo de pedido de 2 sucos de Açaí + 4 creme de queijo:<br> 107 - 2, 101 - 4</label><br>
-<input style="width: 300px;background-color: red;color: white;" type="text" name="number" id="descritivo"> <br>
-<button style="width: 300px;background-color: red;color: white;" type="button" onclick="gerarPedidosVarios()">Pedir Agora</button>
+<h1 style=" 100%;background-color: #31101c;color: white;">Gerar vários pedidos pelo whatsapp</h1>
+<form style="background-color: #31101c;border:50px solid transparent; padding: 10px;border-image: url(https://aondenet-sinval.github.io/portfolio/Imagens/sanduichecomida.png) 30 stretch;" name="pedir_lanche_var">
+<label style="max-width: 400px;background-color: #31101c;color: white;"for="nome_cli">Nome: </label><br>
+<input style="max-width: 400px;background-color: #31101c;color: white;" type="text" name="number" id="nome_cli"> <br>
+<label style="max-width: 400px;background-color: #31101c;color: white;"for="endereco_cli">Endereço: </label><br>
+<input style="max-width: 400px;background-color: #31101c;color: white;" type="text" name="number" id="endereco_cli"> <br>
+<label style="max-width: 400px;background-color: #31101c;color: white;"for="descritivo">Descreva seu pedido abaixo na ordem: código - quantidade </label><br>
+<label style="max-width: 400px;background-color: #31101c;color: white;"for="exemplo">Exemplo de pedido de 2 sucos de Açaí + 4 creme de queijo:<br> 107 - 2, 101 - 4</label><br>
+<input style="max-width: 400px;background-color: #31101c;color: white;" type="text" name="number" id="descritivo">
+<p style="color: white;" name="querySelectorVar" id="avisoVar"></p>
+<button style="max-width: 400px;background-color: #31101c;color: white;" type="button" onclick="gerarPedidosVarios()">Pedir Agora</button>
 </form>
+
 
 			</div>
 			</div>

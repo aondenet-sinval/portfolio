@@ -73,11 +73,11 @@ a{  text-decoration: none;}
 /*Adicionando keyframes*/
 
 .phone-web{
-	-webkit-animation-duration: 3s;
-	-moz-animation-duration: 3s;
-	-ms-animation-duration: 3s;
-	-o-animation-duration: 3s;	
-	animation-duration: 3s;
+	-webkit-animation-duration: 6s;
+	-moz-animation-duration: 6s;
+	-ms-animation-duration: 6s;
+	-o-animation-duration: 6s;	
+	animation-duration: 6s;
 	
 
 	-webkit-animation-name: phone-web-left;
@@ -85,8 +85,6 @@ a{  text-decoration: none;}
 	-ms-animation-name: phone-web-left;
 	-o-animation-name: phone-web-left;
 	animation-name: phone-web-left;
-	animation-duration: 3s;
-	animation-name: phone-web-right;
 }
 @-webkit-keyframes phone-web-left {
   from {
@@ -123,17 +121,7 @@ a{  text-decoration: none;}
   }
 }
 
-@keyframes phone-web-right {
-  from {
-    margin-right: 100%;
-    width: 300%
-  }
 
-  to {
-    margin-right: 0%;
-    width: 100%;
-  }
-}
 /*Container do keyframe*/
 .cont-imagem{
 		overflow: hidden;	
