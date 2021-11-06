@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Praticando conceitos de CSS Flexbox</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="./css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../css/w3.css"> 
+<script>
+
+function gerarPedidosUnicos(){
+let nome_cliente = document.pedir_lanche.nome_cli.value;
+let numberCodigo = document.pedir_lanche.numberCodigo.value;
+let endereco_cliente = document.pedir_lanche.endereco_cli.value;
+let numberQuantidade = document.pedir_lanche.numberQuantidade.value;
+let nome_cli = "Nome:";
+let endereco_cli = ". Endereço:";
+let codigo = ". Código/Tipo do Lanche:";
+let quantidade = ". Quantidade:";
+ let url = "https://wa.me/73999005211/";
+  let end_url = `${url}?text=${nome_cli} ${nome_cliente}${endereco_cli} ${endereco_cliente}${codigo} ${numberCodigo}${quantidade} ${numberQuantidade}`;
+  const encoded = encodeURI(end_url );
+if (numberCodigo > 0) {
+  window.open(encoded);	
+}else {
+	alert("Por favor preencha o formulário!")
+}
+}
+
+function gerarPedidosVarios(){
+let nome_cliente = document.pedir_lanche_var.nome_cli.value;
+let endereco_cliente = document.pedir_lanche_var.endereco_cli.value;
+let descritivo = document.pedir_lanche_var.descritivo.value;
+let codigo = "Código:";
+let descricao = ". Descrição:";
+  let url = "https://wa.me/73999005211/";
+  let end_url = `${url}?text=${nome_cli} ${nome_cliente}${endereco_cli} ${endereco_cliente}${descricao} ${descritivo}`;
+  const encoded = encodeURI(end_url );
+if (numberCodigoVar > 0) {
+  window.open(encoded);	
+}else {
+	alert("Por favor preencha o formulário!")
+}
+}
+
+
+</script>
+</head>
+<body>
+	<!-- Header -->
+	<div class="header">
+	  <h1>Sinval Gomes... </h1>
+	  <p>Development <b>flexible</b> layout with flexbox.</p>
+	</div>
+			<!-- Navigation Bar -->
+			<div class="navbar">
+					<a href="index.html">HOME</a>
+					<a href="avancado_colors.html">COLORS</a>
+					<a href="avancado_colors.html">KEYWORDS</a>
+					<a href="avancado_gradient.html">GRADIENTS</a>
+					<a href="text_efects.html">TEXT EFECTS</a>
+					<a href="webfontes.html">WEB FONTS</a>
+					<a href="#">TRANSITIONS</a>
+					<a href="multiply_columns.html">MULTIPLY COLUMNS</a>
+					<a href="#">USER INTERFACE</a>
+			</div>
+			<div class="row">
+					<div class="side">						
+						<h1>+ LINKS</h1>
+						CSS Avançado <a href="avancado_rounded_borders.html"><span style="font-size: larger;">border-radius</span></a>.<br>
+						CSS Avançado <a href="avancado_multi_back.html"><span style="font-size: larger;">Multiple Background</span></a>.<br>
+						CSS Avançado <a href="avancado_back.html"><span style="font-size: larger;">Background</span></a>.<br>
+						CSS Avançado <a href="avancado_colors.html"><span style="font-size: larger;">CSS Colors</span></a>.<br>
+						CSS Avançado <a href="flex_items.html"><span style="font-size: larger;">Flex Items</span></a>.<br>
+						CSS Avançado <a href="mquery.html"><span style="font-size: larger;">Media Query</span></a>.<br>
+						CSS Avançado <a href="rwdvideos.html"><span style="font-size: larger;">RWD Vídeos</span></a>.<br>
+						CSS Avançado <a href="flex_direction.html"><span style="font-size: larger;">Flex Direction</span></a>.<br>
+						CSS Avançado <a href="justify.html"><span style="font-size: larger;">Justify Content</span></a>.<br>
+						CSS Avançado <a href="justify_align_items_center.html"><span style="font-size: larger;">Justify + Align Items</span></a>.<br>
+						CSS Avançado <a href="../grid/index.html"><span style="font-size: larger;">Grid View</span></a>.<br>
+						CSS Avançado <a href="./keyframes.html"><span style="font-size: larger;">@keyframes</span></a>.<br>
+					</div>
+			
+			<div class="main">
+			<h3>Aplicando JS ao whatsapp</h3>
+			
+			<table class="w3-table">
+<!--			Liquidos-->
+			<th>Sucos e bebidas</th>
+			<tr><td>Sucos/Bebidas</td><td>Código</td><td>Preço</td></tr>
+			<tr><td>Suco de maracujá</td><td>105</td><td>R$0,00</td></tr>
+			<tr><td>Suc de uva</td><td>106</td><td>R$0,00</td></tr>
+			<tr><td>Sucos Açaí</td><td>107</td><td>R$0,00</td></tr>
+<!--Sólidos-->
+			<th>Sanduiches - Hamburger - Misto</th>
+				<tr><td>Sandubas</td><td>Código</td><td>Preço</td></tr>
+				<tr><td>Misto com salada</td><td>108</td><td>R$0,00</td></tr>
+				<tr><td>Hamburger vegetariano</td><td>109</td><td>R$0,00</td></tr>
+				<tr><td>Misto com salada</td><td>110</td><td>R$0,00</td></tr>
+				<tr><td>Pizza Grande</td><td>111</td><td>R$0,00</td></tr>
+		
+			</table>
+<h1 style="width: 340px;background-color: red;color: white;">Gerar pedido único whatsapp</h1>
+<form style="border-radius: 5px;background-color: #f2f2f2;padding: 20px;" name="pedir_lanche">
+<label for="nome_cli">Nome: </label><br>
+<input style="width: 300px;background-color: red;color: white;" type="text" name="number" id="nome_cli"> <br>
+<label for="endereco_cli">Endereço: </label><br>
+<input style="width: 300px;background-color: red;color: white;" type="text" name="number" id="endereco_cli"> <br>
+<label style="width: 300px;background-color: red;color: white;" for="numberCodigo">Código/Tipo do Lanche: </label><br>
+<input style="width: 300px;background-color: red;color: white;" type="number" name="number" id="numberCodigo"> <br>
+<label for="numberQuantidade">Quantidade: </label><br>
+<input style="width: 300px;background-color: red;color: white;" type="number" name="number" id="numberQuantidade" required="true"> <br>
+<button style="width: 300px;background-color: red;color: white;" type="button" onclick="gerarPedidosUnicos()">Pedir Agora</button>
+</form>
+<h1 style="width: 340px;background-color: red;color: white;">Gerar vários pedidos pelo whatsapp</h1>
+<form style="border-radius: 5px;background-color: #f2f2f2;padding: 20px;" name="pedir_lanche_var">
+<label for="nome_cli">Nome: </label><br>
+<input style="width: 300px;background-color: red;color: white;" type="text" name="number" id="nome_cli"> <br>
+<label for="endereco_cli">Endereço: </label><br>
+<input style="width: 300px;background-color: red;color: white;" type="text" name="number" id="endereco_cli"> <br>
+<label for="descritivo">Descreva seu pedido abaixo na ordem: código - quantidade </label><br>
+<label for="exemplo">Exemplo de pedido de 2 sucos de Açaí + 4 creme de queijo:<br> 107 - 2, 101 - 4</label><br>
+<input style="width: 300px;background-color: red;color: white;" type="text" name="number" id="descritivo"> <br>
+<button style="width: 300px;background-color: red;color: white;" type="button" onclick="gerarPedidosVarios()">Pedir Agora</button>
+</form>
+
+			</div>
+			</div>
+	<!-- Footer -->
+	<div class="footer">
+	  <h2>Sinval Gomes Webdesigner <a href="https://www.aondenet.com">aondenet</a></h2>
+	</div>
+</body>
+</html>
