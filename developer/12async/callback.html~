@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Async, Sync</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+   
+</head>
+<body>
+<div class="navbar">
+<ul>
+<li><a href="./index.html">INÍCIO</a></li>
+<li><a href="sincronos.html">JS SÍNCRONO</a></li>
+<li><a href="promises.html">PROMISES</a></li>
+<li><a href="async-await.html">ASYNC-AWAIT</a></li>
+</ul>
+</div>
+<h1>
+    Praticando com funções sincronas e assincronas em Javascript.    
+</h1>  
+<div>
+O objetivo aqui é considerar problemas relacionados aos usos de setTimeout() e setInterval() junto co callbacks. Você verá aqui cancelamento de setTimeout em dois botões diferentes, eu fiz isso usando duas funções mas é possível outra abordagem.
+</div>
+<button onclick="callbackAgora()">Click</button>
+<p>Agora vamos passar alguns parâmetros para função com setTimeout. Nesse caso um nome é passado como terceiro parâmetro após o setTimeout.</p>
+<button onclick="setParam()">Click start</button>
+<p>Agora podemos cancelar o parametro passado antes que ele seja executado.<br>
+A função acima foi definida para ser executada em 10 segundos.<br>
+A função abaixo foi definida com o mesmo período de tempo. Mas ela é anulada antes dos 10 segundos com clearTimeout.  
+</p>
+<button onclick="cancelParam()">Click cancel</button>
+<p>Vamos trabalhar a seguir com setInterval.<br>
+Eu aproveitei o código abaixo da função do Mozilla MDN.<br>
+Então agora vamos usar um botão para pausar o relógio, cancelando setInterval.
+</p>
+<button onclick="stopInterval()">Click cancel clock</button>
+<b id="demo"></b>
+<p>Colocando cronometro para funcionar:</p>
+<button onclick="cronoStart()">Crono start</button>
+<button onclick="cronoStop()">Crono stop</button>
+<button onclick="cronoReset()">Crono reset</button>
+<b id="cronometro"></b>
+  <script src='callback.js'></script>  
+</body>
+</html>

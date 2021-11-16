@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Async, Sync</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+   
+</head>
+<body>
+<div class="navbar">
+<ul>
+<li><a href="./index.html">INÍCIO</a></li>
+<li><a href="sincronos.html">JS SÍNCRONO</a></li>
+<li><a href="promises.html">PROMISES</a></li>
+<li><a href="async-await.html">ASYNC-AWAIT</a></li>
+<li><a href="callback.html">CALLBACK</a></li>
+</ul>
+</div>
+<h1>
+    Praticando com funções sincronas e assincronas em Javascript.    
+</h1>  
+<div>
+O objetivo é demonstrar como alguns dos problemas de desenvolvimentos envolvendo códigos síncronos.
+Quando um código é escrito de modo síncrono ele é executado de cima para baixo, erros de execução podem acontecer.
+Talvez você dependa de uma variável que foi ou poderá ser definida posteriormente na instrução. 
+Ou você faz uma chamada externa e não obtém o retorno esperado. É preciso prever e tratar erros dessa espécie ou similar.
+Então vemos a necessidade de pleno conhecimento de sincronismo junto com o uso de códigos assíncronos.
+O código assíncrono é aquele que não ocorre na sequencia original, mas espera o retorno da condição para que ele possa ser executado.
+</div>
+</body>
+</html>

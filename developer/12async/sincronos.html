@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset='utf-8'>
+	    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	    <title>Async, Sync</title>
+	    <meta name='viewport' content='width=device-width, initial-scale=1'>
+	    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	   
+	</head>
+	<body>
+					<div id="header" class="navbar">
+						<ul>
+							<li><a href="./index.html">INÍCIO</a></li>
+							<li><a href="sincronos.html">JS SÍNCRONO</a></li>
+							<li><a href="promises.html">PROMISES</a></li>
+							<li><a href="async-await.html">ASYNC-AWAIT</a></li>
+							<li><a href="callback.html">CALLBACK</a></li>
+						</ul>
+					</div>
+					<h1>
+					    Problemas do javascript síncrono   
+					</h1>
+					<h3>O código javascript executa nessa página possui duas funções.</h3>
+					<h5>O botão abaixo deveria carregar uma imagem após clicado</h5>
+					<button onclick="carregarImagem()">click</button><br>
+					<p>
+					Problema:<br>
+					A primeira função soma a variável aa + ba. Mas aparece um problema de sincronismo, pois a variável aa é declarada antes da criação da variável soma. Mas é criada após a criação da variável soma.<br> 
+					O resultado de soma() no console.error() aparece como NaN. <br>
+					O resultado de console.log(soma) não será exibido.<br>
+					Quando clicar no primeiro botão abaixo, você estará executando a função descrita acima.<br>
+					
+					Quando clicar no segundo botão abaixo, você está definindo o valor de a. Esse é um problema que, caso ocorra  pode ser resolvido somente com o uso de javascript assincrono.<br>
+					Nós vamos voltar a esse problema usando async await e como ele poderia ser usado.
+					</p>
+	
+	  <script src='sincronos.js'></script>   
+	</body>
+</html>
