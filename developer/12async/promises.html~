@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Async, Sync</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-   
-</head>
-<body>
-<div id="header" class="navbar">
-<ul>
-<li><a href="./index.html">INÍCIO</a></li>
-<li><a href="sincronos.html">JS SÍNCRONO</a></li>
-<li><a href="promises.html">PROMISES</a></li>
-<li><a href="async-await.html">ASYNC-AWAIT</a></li>
-</ul>
-</div>
-<div class="title">
-<h1>
-    Trabalhando com funções sincronas e assincronas    
-</h1>
-</div>
-<div class="main">
-<button onclick="mostrarSuco()">click</button>
-<h4>Clicando no botão acima carrega uma imagem abaixo:</h4>
-
-</div>
-
-  <script src='promises.js'></script>   
-</body>
+	<head>
+	    <meta charset='utf-8'>
+	    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	    <title>Async, Sync</title>
+	    <meta name='viewport' content='width=device-width, initial-scale=1'>
+	    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	   
+	</head>
+	<body>
+					<div id="header" class="navbar">
+						<ul>
+							<li><a href="./index.html">INÍCIO</a></li>
+							<li><a href="sincronos.html">JS SÍNCRONO</a></li>
+							<li><a href="promises.html">PROMISES</a></li>
+							<li><a href="async-await.html">ASYNC-AWAIT</a></li>
+							<li><a href="callback.html">CALLBACK</a></li>
+						</ul>
+					</div>
+					<div class="title">
+						<h1>
+						    Trabalhando com funções sincronas e assincronas    
+						</h1>
+					</div>
+					<div class="main">
+					<button onclick="mostrarSuco()">click</button>
+					<h4>Clicando no botão acima carrega uma imagem abaixo:</h4>
+					
+					</div>
+	
+	  <script src='promises.js'></script>   
+	</body>
 </html>
