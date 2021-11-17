@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset='utf-8'>
+	    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	    <title>Manipulando DOM</title>
+	    <meta name='viewport' content='width=device-width, initial-scale=1'>
+	    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	   
+	</head>
+	<body>
+					<div id="header" class="navbar">
+						<ul>
+							<li><a href="./index.html">INÍCIO</a></li>
+							<li><a href="sincronos.html">JS SÍNCRONO</a></li>
+							<li><a href="promises.html">PROMISES</a></li>
+							<li><a href="async-await.html">ASYNC-AWAIT</a></li>
+							<li><a href="callback.html">CALLBACK</a></li>
+							<li><a href="boaspraticas-a.html">BOAS PRÁTICAS</a></li>
+							<li><a href="dom.html">DOM</a></li>
+						</ul>
+					</div>
+					<h1>
+					    Praticando manipulação do DOM   
+					</h1>  
+					<div>
+					<p>
+					A propriedade innerHTML pode ser usada para obter ou alterar qualquer elemento HTML, incluindo html e body.					
+					</p>
+					<p id="par">
+					Quando um código é escrito de modo síncrono ele é executado de cima para baixo, erros de execução podem acontecer.
+					O exemplo abaixo encontra a tag strong que se localiza dentro do id=par, e escreve 'BOM DIA'.<br>
+					<strong id="str"></strong> <br>
+					Então podemos alcançar qualquer elemento através do DOM, e posicionar a inserção de html via js.  					
+					</p>
+					<p id="idgrupo">Esse é um novo parágrafo, e possui definição de cores e se eu desejar altera essas definições?<br>
+					
+					<button onclick="alterCores()">Clique aqui</button>
+					</p>
+						<table><th>Tabela de métodos</th>
+						<tr><td>Método</td><td>Descrição</td></tr>
+						<tr><td>document.createElement(element)</td><td>Cria um elemento html</td></tr>
+						<tr><td>document.removeChild(element)</td><td>Remove um elemento html</td></tr>
+						<tr><td>document.appendChild(element)</td><td>Adiciona um elemento html</td></tr>
+						<tr><td>document.replaceChild(new, old)</td><td>Atualiza um elemento html</td></tr>
+						<tr><td>document.write(text)</td><td>Escreve no fluxo de saída</td></tr>
+						</table>
+					</div>
+					<button onclick="createTr()">createTable</button>
+			<script src='dom.js'></script>   					
+	</body>
+</html>

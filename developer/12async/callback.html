@@ -21,23 +21,29 @@
 				<h1>
 				    Praticando com funções sincronas e assincronas em Javascript.    
 				</h1>  
-				<div>
-				O objetivo aqui é considerar problemas relacionados aos usos de setTimeout() e setInterval() junto co callbacks. Você verá aqui cancelamento de setTimeout em dois botões diferentes, eu fiz isso usando duas funções mas é possível outra abordagem.
-				</div>
+				<div class="grupo">
+				O objetivo aqui é considerar problemas relacionados aos usos de setTimeout() e setInterval() junto co callbacks. Você verá aqui cancelamento de setTimeout em dois botões diferentes, eu fiz isso usando duas funções mas é possível outra abordagem. Abaixo temos um botão que executa uma callback.<br>
+				
 				<button onclick="callbackAgora()">Click</button>
-				<p>Agora vamos passar alguns parâmetros para função com setTimeout. Nesse caso um nome é passado como terceiro parâmetro após o setTimeout.</p>
+				</div>
+				<div class="grupo">
+				<p>Agora vamos passar alguns parâmetros para função com setTimeout. Nesse caso um nome é passado como terceiro parâmetro após o setTimeout. O botão abaixo inicia a função.</p>
 				<button onclick="setParam()">Click start</button>
 				<p>Agora podemos cancelar o parametro passado antes que ele seja executado.<br>
 				A função acima foi definida para ser executada em 10 segundos.<br>
 				A função abaixo foi definida com o mesmo período de tempo. Mas ela é anulada antes dos 10 segundos com clearTimeout.  
 				</p>
-				<button onclick="cancelParam()">Click cancel</button>
+				<button onclick="cancelParam()">Click cancel</button>				
+				</div>
+				<div class="grupo">
 				<p>Vamos trabalhar a seguir com setInterval.<br>
 				Eu aproveitei o código abaixo da função do Mozilla MDN.<br>
 				Então agora vamos usar um botão para pausar o relógio, cancelando setInterval.
 				</p>
 				<button onclick="stopInterval()">Click cancel clock</button>
-				<b id="demo"></b>
+				<b id="demo"></b>				
+				</div>
+	
 				<p>Colocando cronometro para funcionar:</p>
 				<button onclick="cronoStart()">Crono start</button>
 				<button onclick="cronoStop()">Crono stop</button>

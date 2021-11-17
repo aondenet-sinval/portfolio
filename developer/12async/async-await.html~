@@ -31,6 +31,6 @@
 					<button onclick="executaSoma();">click</button><br>
 			</div>
 	
-	  <script src='async-await.js'></script>   
+			<script src='async-await.js'></script>   
 	</body>
 </html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset='utf-8'>
+	    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	    <title>Boas práticas em JS - parte a</title>
+	    <meta name='viewport' content='width=device-width, initial-scale=1'>
+	    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	   
+	</head>
+	<body>
+			<div id="header" class="navbar">
+				<ul>
+					<li><a href="./index.html">INÍCIO</a></li>
+					<li><a href="sincronos.html">JS SÍNCRONO</a></li>
+					<li><a href="promises.html">PROMISES</a></li>
+					<li><a href="async-await.html">ASYNC-AWAIT</a></li>
+					<li><a href="callback.html">CALLBACK</a></li>
+				</ul>
+			</div>
+			<div class="title">
+					<h1>
+					    Trabalhando com boas práticas.   
+					</h1>
+			</div>
+			<div class="main">					
+					<p>
+					<code>
+								function testeUm() {<br> 
+									a = 'Estou dentro';<br>
+									b = 'Estou dentro';<br>
+								
+								}<br>
+								testeUm();<br>
+								console.log('Ainda consigo ver o valor de a: ' + a);<br>
+								console.log('Ainda consigo ver o valor de b: ' + b);<br>
+								function testeDois() {<br>
+									var c = 'Estou dentro';<br>
+									d = 'beleza então';<br>
+								}
+								testeDois();<br>
+								//console.log('Ainda consigo ver o valor de c: ' + c);<br>
+								var d = 'Outro valor';<br>
+								console.log('d é: ',d)
+					</code>
+					Quando não usamos var ocorre o vazamento de variável, mesmo que ela seja declarada dentro de um bloco. Os problemas serão uso desnecessário de memória, casoa variável não esteja sendo usado e/ou conflitos.<br>
+					Verifiqque o console abaixo:<br>
+					<code>
+
+			</div>
+	
+			<script src='boaspraticas-a.js'></script>   
+	</body>
+</html>
