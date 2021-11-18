@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset='utf-8'>
+	    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	    <title>Manipulando DOM</title>
+	    <meta name='viewport' content='width=device-width, initial-scale=1'>
+	    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	   
+	</head>
+	<body>
+					<div id="header" class="navbar">
+						<ul id="navbar">
+							<li><a href="./index.html">INÍCIO</a></li>
+							<li><a href="dom-elements.html">JS SÍNCRONO</a></li>
+						</ul>
+					</div>
+					<h1>
+					    Praticando manipulação/seleção de elementos do DOM com JS:   
+					</h1>  
+					<div class="main">
+					<ul class="list"> 
+					<li>id</li>
+					<li>tag</li>
+					<li>classe</li>
+					<li>seletor</li>
+					<li>coleção de objetos</li>
+					</ul> 
+					Os arquivos estarão linkados por tópico acima.<br>
+					<p>
+					Vamos selecionar o elemento pelo id com let element = document.getElementById("introduz").<br>
+					Agora vamos incluir texto com:<br>
+					document.getElementById("demo").innerHTML =<br> 
+					"Vamos introduzir texto dentro do parágrafo com nome de id demo: " + element.innerHTML;<br>
+					Veja abaixo depois de clicar no botão:<br>
+					<button onclick="introduzId()">Entrar texto</button>	
+					"Vamos introduzir texto dentro da tag b: "<br>
+					Veja abaixo depois de clicar no botão:<br>
+					<button onclick="introduzTag()">Entrar texto</button>					
+					</p>
+					<p id="introduz"></p>
+					<p id="demo"></p>
+					<p><b id="demoB"></b></p>
+					<p>
+					Podemos selecionar elementos usando os seletores CSS:<br>
+					Vamos usar aqui a seleção pela classe CSS .valor:<br>
+					Veja abaixo ao clicar no botão<br>
+					<button onclick="introduzClasse()">Clique</button>
+					<p id="valor" class="valor"></p>
+					</p>
+					<p>
+					Agora vamos ao último da lista que são coleções de objetos.<br>
+					Uma lista representa uma coleção de objetos, que vamos usar abaixo:<br>
+					<ol>
+					<li id="listaRetorna">Mauro</li>
+					<li>José</li>
+					<li>Paulo</li>
+					<li>Moqueca</li>
+					</ol>
+					<button onclick="retornarLista()">Adicionar na lista</button>
+					</p>
+					Todos os códigos estarão nesse diretório: <a href="https://github.com/aondenet-sinval/portfolio/tree/master/developer/12async/dom-html" name="Javascript">CODE JAVASCRIPT</a>
+					</div>
+					<script src='dom-elements.js'></script>   
+	</body>
+</html>

@@ -1,0 +1,26 @@
+body{				
+		 font-family: Arial, Helvetica, sans-serif;
+		 background-color: black;
+		 color: white;
+		 margin: 30px;
+}
+
+p{
+	background-color: blueviolet;
+	color: whitesmoke;
+	font-size: 18px;
+}
+li{
+	display: inline-block;
+}
+code{
+		background-color: greenyellow;
+		color: black;
+		font-size: 14px;
+}
+
+.grupo{
+		background-color: blueviolet;
+		margin: 10px;
+		
+}

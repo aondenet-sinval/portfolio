@@ -46,7 +46,7 @@
 						<tr><td>document.write(text)</td><td>Escreve no fluxo de saída</td></tr>
 						</table>
 					</div>
-					<button onclick="createTr()">createTable</button>
+					
 			<script src='dom.js'></script>   					
 	</body>
 </html>
