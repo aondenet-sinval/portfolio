@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset='utf-8'>
+	    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	    <title>Manipulando DOM</title>
+	    <meta name='viewport' content='width=device-width, initial-scale=1'>
+	    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	   
+	</head>
+	<body>
+					<div id="header" class="navbar">
+						<ul id="navbar">
+							<li><a href="./index.html">INÍCIO</a></li>
+							<li><a href="dom-elements.html">JS SÍNCRONO</a></li>
+						</ul>
+					</div>
+					<h1>
+					    Praticando navegação através dos elementos do DOM com JS:   
+					</h1>  
+					<div class="main">
+					<p>
+					A arvore de organização do DOM precisa ser compreendida.<br>
+					Em qualquer página web temos o root iniciado pela tag html.<br>
+					E aí teremos na sequência:<br>
+					head e body que são irmãos e filhos do root (html).<br>
+					Os elementos dentro de head serão fihos dele e irmãos: title, meta, link, etc.<br>
+					Os elementos dentro de body serão fihos dele e irmãos: h1, p, ul, etc.<br>
+					Compreendendo esses pontos podemos entender o uso das propriedades de navegação a seguir:<br>
+					Com o HTML DOM, você pode navegar na árvore de nós usando relacionamentos de nós.<br>
+					<ul>
+					<li>parentNode</li>
+					<li>childNodes[nodenumber]</li>
+					<li>firstChild</li>
+					<li>lastChild</li>
+					<li>nextSibling</li>
+					<li>previousSibling</li>
+					</ul>
+					<strong id="exibir"></strong><br>
+					<button onclick="exibirTitle">Título</button>
+					<button onclick="exibirH1">H1</button>
+					<button onclick="exibirTitle">Título</button>
+					</p>			
+					</div>
+					<script src='dom-navigations.js'></script>   
+	</body>
+</html>

@@ -12,7 +12,8 @@
 					<div id="header" class="navbar">
 						<ul>
 							<li><a href="./index.html">INÍCIO</a></li>
-							<li><a href="dom-elements.html">elementos</a></li>
+							<li><a href="dom-elements.html">ELEMENTOS</a></li>
+							<li><a href="dom-navigations.html">NAVIGATIONS</a></li>
 						</ul>
 					</div>
 					<h1>

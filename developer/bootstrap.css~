@@ -1,0 +1,10 @@
+/*Css Bootstrap.html*/
+
+/*dimensionamento do carousel*/
+#carouselExampleIndicators{
+	height: 300px;
+}
+
+.carousel-item{
+	height: 300px;
+}

@@ -1,174 +1,39 @@
-
+@charset "UTF-8";
+/*Blogger: https://lanchesx-aondenet.blogspot.com/*/
 /* Style the body */
 body {
   font-family: Arial;
   margin: 0;
 }
 
-/*Keyframes*/
-#myImagemKeyFrame {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  object-position: 0% 0%;
-  animation: mymove 5s infinite;
-}  
-
-@keyframes mymove {
-  0% {
-    object-position: 0% 0%;
-  }
-  25% {
-    object-position: 20% 0%;
-  }
-  100% {
-    object-position: 100% 100%;
-  }
-}
-@font-face {
-   font-family: myFontsVictoria;
-   src: url('https://aondenet-sinval.github.io/portfolio/developer/fonts/victoria-duo/VictoriaSignature.ttf');
-}
-
-#Header1 {
-  font-family: myFontsVictoria;
-  font-size: 20px;
-  text-align: center;
-}
-/* Header/logo Title */
-.header {
-  background-color: #DE1919;
-  margin: 5px;
-  padding: 5px;
-  background: url('https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-header.jpg') no-repeat;
-  background-size: 100%;
-}
-
-/* Style the top navigation bar */
-#crosscol {
-  display: flex;
-  background-color: #DE1919;
-  margin-left: 2px;
-  margin-right: 2px;
-}
-#crosscol ul{
-  display: flex;
-  background-color: #DE1919;
-  text-decoration: none;
-  list-style: none;
-}
-
-/* Style the navigation bar links */
-#crosscol a {
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
+a {
   text-decoration: none;
 }
 
-/* Change color on hover */
-#crosscol a:hover {
-  background-color: #EFC2DE;
-  color: black;
-}
-
-/* Column container */
-.row {  
-  display: flex;
-  flex-wrap: wrap;
-}
-
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.sidebar {
-  flex: 100%;
-  background-color: #DF3535;
-  padding: 20px;
-}
-
-/* Main column */
-.main {
-  flex: 100%;
-  background-color: #6B4E4E;
-  color: white;
-  padding: 20px;
-}
-
-#main{
-	display: flex;
-	flex-direction: row;
-}
-.wrap{
-	flex-wrap: wrap;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #933939;
-}
-a{  text-decoration: none;}
+/* Controle de screen */
 /*
 Aqui vai somente as colunas de controle de tela de apresentação ao usuário:
-col-m max-width 500px; col-s min-width 501px; 
-col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
+col-s max-width 600px; para dispositivos até 600px 
+col-m min-width 601px; para dispositivos entre 601px e 992px 
+col-g min-width 992px; para dispositivos maior que 992px.
 */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   /* For mobile phones: */
-  .col-m-1 {
-    width: 8.33%;
+  #Header1 {
+    font-family: optima, helvetica;
+    font-size: 20px;
+    text-align: center;
   }
 
-  .col-m-2 {
-    width: 16.66%;
+  /* Header/logo Title */
+  .header {
+    background-color: #DE1919;
+    margin: 5px;
+    padding: 5px;
+    background: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-header-mini.jpg") no-repeat;
+    background-size: 100%;
   }
 
-  .col-m-3 {
-    width: 25%;
-  }
-
-  .col-m-4 {
-    width: 33.33%;
-  }
-
-  .col-m-5 {
-    width: 41.66%;
-  }
-
-  .col-m-6 {
-    width: 50%;
-  }
-
-  .col-m-7 {
-    width: 58.33%;
-  }
-
-  .col-m-8 {
-    width: 66.66%;
-  }
-
-  .col-m-9 {
-    width: 75%;
-  }
-
-  .col-m-10 {
-    width: 83.33%;
-  }
-
-  .col-m-11 {
-    width: 91.66%;
-  }
-
-  .col-m-12 {
-    width: 100%;
-  }
-
-}
-
-@media only screen and (min-width: 501px) {
-  /* For mobiles : */
   .col-s-1 {
     width: 8.33%;
   }
@@ -216,61 +81,94 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
   .col-s-12 {
     width: 100%;
   }
-
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 601px) {
   /* For tablets: */
-  .col-f-1 {
+  #Header1 {
+    font-family: optima, helvetica;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* Header/logo Title */
+  .header {
+    background-color: #DE1919;
+    margin: 5px;
+    padding: 5px;
+    background: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-header.jpg") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    min-height: 350px;
+  }
+
+  .col-m-1 {
     width: 8.33%;
   }
 
-  .col-f-2 {
+  .col-m-2 {
     width: 16.66%;
   }
 
-  .col-f-3 {
+  .col-m-3 {
     width: 25%;
   }
 
-  .col-f-4 {
+  .col-m-4 {
     width: 33.33%;
   }
 
-  .col-f-5 {
+  .col-m-5 {
     width: 41.66%;
   }
 
-  .col-f-6 {
+  .col-m-6 {
     width: 50%;
   }
 
-  .col-f-7 {
+  .col-m-7 {
     width: 58.33%;
   }
 
-  .col-f-8 {
+  .col-m-8 {
     width: 66.66%;
   }
 
-  .col-f-9 {
+  .col-m-9 {
     width: 75%;
   }
 
-  .col-f-10 {
+  .col-m-10 {
     width: 83.33%;
   }
 
-  .col-f-11 {
+  .col-m-11 {
     width: 91.66%;
   }
 
-  .col-f-12 {
+  .col-m-12 {
     width: 100%;
   }
-
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 993px) {
   /* For desktop: */
+  #Header1 {
+    font-family: optima, helvetica;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* Header/logo Title */
+  .header {
+    background-color: #DE1919;
+    margin: 5px;
+    padding: 5px;
+    background: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-header.jpg") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    min-height: 350px;
+  }
+
+  /*crosscol*/
   .col-g-1 {
     width: 8.33%;
   }
@@ -318,63 +216,155 @@ col-f min-width 768px; col-g min-width 900px; col- min-width 1100px;
   .col-g-12 {
     width: 100%;
   }
-
 }
-@media only screen and (min-width: 1100px) {
-  /* For desktop: */
-  .col-1 {
-    width: 8.33%;
-  }
-
-  .col-2 {
-    width: 16.66%;
-  }
-
-  .col-3 {
-    width: 25%;
-  }
-
-  .col-4 {
-    width: 33.33%;
-  }
-
-  .col-5 {
-    width: 41.66%;
-  }
-
-  .col-6 {
-    width: 50%;
-  }
-
-  .col-7 {
-    width: 58.33%;
-  }
-
-  .col-8 {
-    width: 66.66%;
-  }
-
-  .col-9 {
-    width: 75%;
-  }
-
-  .col-10 {
-    width: 83.33%;
-  }
-
-  .col-11 {
-    width: 91.66%;
-  }
-
-  .col-12 {
-    width: 100%;
-  }
-
+/*crosscol sem dropdown*/
+/*Definindo menu de navegação para três dispositivos diferentes*/
+/*crosscol mobile start*/
+/* Style the crosscol navigation bar */
+#crosscolPhone {
+  flex: 85%;
+  background-color: #DE1919;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 50px solid transparent;
+  padding: 1px;
+  border-image: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-hamburger-mini-border.png") 30 stretch;
+  /* Style the navigation bar links */
+  /* Change color on hover */
 }
-a {
+#crosscolPhone ul {
+  display: flex;
+  background-color: #DE1919;
+  text-decoration: none;
+  list-style: none;
+  flex-wrap: wrap;
+}
+#crosscolPhone ul li {
+  width: 140px;
+}
+#crosscolPhone a {
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+}
+#crosscolPhone a:hover {
+  background-color: #EFC2DE;
+  color: black;
+}
+
+#sectionCrosscolButton {
+  flex: 15%;
+}
+
+/*crosscol end mobile*/
+/*crosscol Tablets start*/
+/* Style the top navigation bar */
+#crosscolTablet {
+  background-color: #DE1919;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 50px solid transparent;
+  padding: 1px;
+  border-image: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-hamburger-mini-border-mais.png") 30 stretch;
+  /* Style the navigation bar links */
+  /* Change color on hover */
+}
+#crosscolTablet ul {
+  display: flex;
+  background-color: #DE1919;
+  text-decoration: none;
+  list-style: none;
+  flex-wrap: wrap;
+}
+#crosscolTablet ul li {
+  width: 140px;
+}
+#crosscolTablet a {
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+}
+#crosscolTablet a:hover {
+  background-color: #EFC2DE;
+  color: black;
+}
+
+/*crosscol Tablets end*/
+/*crosscol desktop start*/
+/* Style the top navigation bar */
+#crosscolDesktop {
+  background-color: #DE1919;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 50px solid transparent;
+  padding: 1px;
+  border-image: url("https://aondenet-sinval.github.io/portfolio/css/bloggers/img/xtudomais-aondenet-hamburger-mini-border-mais.png") 30 stretch;
+  /* Style the navigation bar links */
+  /* Change color on hover */
+}
+#crosscolDesktop ul {
+  display: flex;
+  background-color: #DE1919;
+  text-decoration: none;
+  list-style: none;
+  flex-wrap: wrap;
+}
+#crosscolDesktop ul li {
+  width: 140px;
+}
+#crosscolDesktop a {
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+}
+#crosscolDesktop a:hover {
+  background-color: #EFC2DE;
+  color: black;
+}
+
+/*crosscol desktop end*/
+/*crosscol com dropdown*/
+/*@import "xtudomais-crosscol-drop";*/
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/*sidebar right*/
+/* Sidebar/right column */
+.sidebar {
+  flex: 30%;
+  background-color: #DF3535;
+  padding: 20px;
+}
+.sidebar ul li {
+  list-style: none;
+}
+
+/* Main column */
+.main-left {
+  flex: 70%;
+  background-color: #DF3535;
+  color: white;
+  padding: 20px;
+}
+.main-left a {
   text-decoration: none;
 }
 
-.widget-content ul li{
-	list-style: none;
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #933939;
 }
+
+/*# sourceMappingURL=xtudomais-aondenet.css.map */
