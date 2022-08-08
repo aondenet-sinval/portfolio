@@ -33,5 +33,7 @@ The Bootstrap 4 grid system has five classes:
     .col-lg- (large devices - screen width equal to or greater than 992px)
     .col-xl- (xlarge devices - screen width equal to or greater than 1200px)
 
+#Text/Typografy:
 
+Tamanho da fonte padrão 16px e espaçamento padrão de 1.5 (1rem).
 

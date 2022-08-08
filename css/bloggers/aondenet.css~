@@ -26,7 +26,7 @@ col-g min-width 992px; para dispositivos maior que 992px.
 
   /* Header/logo Title */
   .header {
-    background-color: #DE1919;
+    background-color: #D8C493;
     margin: 5px;
     padding: 5px;
     background-size: 100%;
@@ -90,12 +90,12 @@ col-g min-width 992px; para dispositivos maior que 992px.
 
   /* Header/logo Title */
   .header {
-    background-color: #DE1919;
+    background-color: #D8C493;
     margin: 5px;
     padding: 5px;
     background-size: 100%;
     width: 100%;
-    min-height: 350px;
+    min-height: 250px;
   }
 
   .col-m-1 {
@@ -156,12 +156,12 @@ col-g min-width 992px; para dispositivos maior que 992px.
 
   /* Header/logo Title */
   .header {
-    background-color: #DE1919;
+    background-color: #D8C493;
     margin: 5px;
     padding: 5px;
     background-size: 100%;
     width: 100%;
-    min-height: 350px;
+    min-height: 250px;
   }
 
   /*crosscol*/
@@ -216,6 +216,11 @@ col-g min-width 992px; para dispositivos maior que 992px.
 /*crosscol sem dropdown*/
 /*Definindo menu de navegação para três dispositivos diferentes*/
 /*crosscol mobile start*/
+#mobile-bar {
+  display: flex;
+  min-width: 350px;
+}
+
 /* Style the crosscol navigation bar */
 #crosscolPhone {
   background-color: #A78E8E;
@@ -328,8 +333,10 @@ col-g min-width 992px; para dispositivos maior que 992px.
 /* Sidebar/right column */
 .sidebar {
   flex: 30%;
-  background-color: #DF3535;
+  background-color: #A78E8E;
+  color: white;
   padding: 20px;
+  min-width: 250px;
 }
 .sidebar ul li {
   list-style: none;
@@ -338,11 +345,40 @@ col-g min-width 992px; para dispositivos maior que 992px.
 /* Main column */
 .main-left {
   flex: 70%;
-  background-color: #DF3535;
+  background-color: #A78E8E;
   color: white;
   padding: 20px;
 }
 .main-left a {
+  text-decoration: none;
+}
+
+/* Footer columns */
+#columns-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column-footer-left {
+  flex: 50%;
+  background-color: #A78E8E;
+  color: white;
+  padding: 20px;
+  min-width: 350px;
+}
+.column-footer-left a {
+  text-decoration: none;
+}
+
+.column-footer-right {
+  flex: 50%;
+  background-color: #A78E8E;
+  color: white;
+  padding: 20px;
+  min-width: 350px;
+}
+.column-footer-right a {
   text-decoration: none;
 }
 
